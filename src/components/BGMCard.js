@@ -287,10 +287,10 @@ function BGMCard({ bgm, onNext, allSongs }) {
         )}
       </div>
 
-      <div className="song-info">
+      {/* <div className="song-info">
         <div className="song-title">{bgm.metadata.title}</div>
         <div className="song-mark">{bgm.description}</div>
-      </div>
+      </div> */}
     </div>
   );
 }
