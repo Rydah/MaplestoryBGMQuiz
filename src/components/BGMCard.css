@@ -244,7 +244,7 @@
   background: rgba(26, 26, 46, 0.95);
   border-radius: 8px;
   margin-top: 4px;
-  max-height: 200px; /* Reduced from 400px */
+  max-height: 400px;
   overflow-y: auto;
   z-index: 1002;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
