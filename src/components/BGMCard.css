@@ -8,7 +8,7 @@
   width: 100%;
   margin: 20px auto;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .bgm-title {
@@ -134,16 +134,31 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
+  min-width: 100px;
 }
 
-.play-button:hover {
+.play-button:hover:not(:disabled) {
   background: #45a049;
+  transform: translateY(-1px);
+}
+
+.play-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.play-button.playing {
+  background: #f44336;
+}
+
+.play-button.playing:hover:not(:disabled) {
+  background: #da190b;
 }
 
 .play-button:disabled {
   background: #cccccc;
   cursor: not-allowed;
+  transform: none;
 }
 
 .volume-control {
@@ -197,16 +212,24 @@
 }
 
 .guess-form {
-  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 10px;
   width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.guess-form.hidden {
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  overflow: hidden;
 }
 
 .guess-input-container {
   position: relative;
   width: 100%;
+  z-index: 1001;
 }
 
 .suggestions {
@@ -217,26 +240,66 @@
   background: rgba(26, 26, 46, 0.95);
   border-radius: 8px;
   margin-top: 4px;
-  max-height: 300px;
+  max-height: 400px;
   overflow-y: auto;
-  z-index: 1000;
+  z-index: 1002;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .suggestion-item {
-  padding: 0.8rem;
-  color: #fff;
+  padding: 12px 16px;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
 }
 
 .suggestion-item:hover {
-  background: rgba(78, 204, 163, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.suggestion-item:not(:last-child) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+.suggestion-title {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.suggestion-description {
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.7);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+}
+
+/* Custom scrollbar for the suggestions dropdown */
+.suggestions::-webkit-scrollbar {
+  width: 8px;
+}
+
+.suggestions::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.suggestions::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.suggestions::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .guess-input {

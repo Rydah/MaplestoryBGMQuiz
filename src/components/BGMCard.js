@@ -10,6 +10,7 @@ function BGMCard({ bgm, onNext, allSongs }) {
   const [playerError, setPlayerError] = useState(false);
   const [volume, setVolume] = useState(50);
   const [startTime, setStartTime] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
   const playerRef = useRef(null);
   const timerRef = useRef(null);
   const fuseRef = useRef(null);
@@ -19,7 +20,7 @@ function BGMCard({ bgm, onNext, allSongs }) {
     // Initialize Fuse for fuzzy search
     if (allSongs && allSongs.length > 0) {
       fuseRef.current = new Fuse(allSongs, {
-        keys: ['metadata.title'],
+        keys: ['metadata.title', 'description'],
         threshold: 0.3,
         includeScore: true,
         minMatchCharLength: 2
@@ -108,12 +109,14 @@ function BGMCard({ bgm, onNext, allSongs }) {
       // Seek to random position and play
       player.seekTo(newStartTime);
       player.playVideo();
+      setIsPlaying(true);
 
       // Stop after 30 seconds
       timerRef.current = setTimeout(() => {
         try {
           player.pauseVideo();
           player.seekTo(0);
+          setIsPlaying(false);
         } catch (error) {
           console.error('Error stopping video:', error);
         }
@@ -127,10 +130,15 @@ function BGMCard({ bgm, onNext, allSongs }) {
   const handlePlayClick = () => {
     if (playerRef.current && !playerError) {
       try {
-        playerRef.current.seekTo(startTime);
-        playerRef.current.playVideo();
+        if (isPlaying) {
+          playerRef.current.pauseVideo();
+        } else {
+          playerRef.current.seekTo(startTime);
+          playerRef.current.playVideo();
+        }
+        setIsPlaying(!isPlaying);
       } catch (error) {
-        console.error('Error playing video:', error);
+        console.error('Error toggling video:', error);
         setPlayerError(true);
       }
     }
@@ -154,14 +162,17 @@ function BGMCard({ bgm, onNext, allSongs }) {
 
     if (value.length >= 2 && fuseRef.current) {
       const results = fuseRef.current.search(value);
-      setSuggestions(results.slice(0, 6).map(result => result.item.metadata.title));
+      setSuggestions(results.slice(0, 15).map(result => ({
+        title: result.item.metadata.title,
+        description: result.item.description
+      })));
     } else {
       setSuggestions([]);
     }
   };
 
   const handleSuggestionClick = (suggestion) => {
-    setGuess(suggestion);
+    setGuess(suggestion.title);
     setSuggestions([]);
   };
 
@@ -175,21 +186,15 @@ function BGMCard({ bgm, onNext, allSongs }) {
     );
   }
 
-  const handleGuess = (e) => {
+  const handleGuessSubmit = (e) => {
     e.preventDefault();
-    const isAnswerCorrect = guess.toLowerCase().trim() === bgm.metadata.title.toLowerCase().trim();
-    setIsCorrect(isAnswerCorrect);
+    if (!guess.trim()) return;
+
+    const isCorrect = guess.toLowerCase() === bgm.metadata.title.toLowerCase();
     setShowAnswer(true);
-    
-    // Show the video player and continue from the start point
-    if (playerRef.current) {
-      try {
-        playerRef.current.seekTo(startTime);
-        playerRef.current.playVideo();
-      } catch (error) {
-        console.error('Error resuming video:', error);
-      }
-    }
+    setIsCorrect(isCorrect);
+    setGuess('');
+    setSuggestions([]);
   };
 
   const handleNext = () => {
@@ -222,10 +227,10 @@ function BGMCard({ bgm, onNext, allSongs }) {
         <div className="audio-controls">
           <button 
             onClick={handlePlayClick}
-            className="play-button"
+            className={`play-button ${isPlaying ? 'playing' : ''}`}
             disabled={playerError}
           >
-            {playerError ? 'Error loading audio' : 'Play Song'}
+            {playerError ? 'Error loading audio' : isPlaying ? 'Pause' : 'Play'}
           </button>
           <div className="volume-control">
             <input
@@ -241,7 +246,7 @@ function BGMCard({ bgm, onNext, allSongs }) {
       </div>
       
       <div className="guess-section">
-        <form onSubmit={handleGuess} className="guess-form">
+        <form onSubmit={handleGuessSubmit} className={`guess-form ${showAnswer ? 'hidden' : ''}`}>
           <div className="guess-input-container">
             <input
               type="text"
@@ -259,7 +264,8 @@ function BGMCard({ bgm, onNext, allSongs }) {
                     className="suggestion-item"
                     onClick={() => handleSuggestionClick(suggestion)}
                   >
-                    {suggestion}
+                    <div className="suggestion-title">{suggestion.title}</div>
+                    <div className="suggestion-description">{suggestion.description}</div>
                   </div>
                 ))}
               </div>
@@ -283,7 +289,7 @@ function BGMCard({ bgm, onNext, allSongs }) {
 
       <div className="song-info">
         <div className="song-title">{bgm.metadata.title}</div>
-        <div className="song-mark">{bgm.mark}</div>
+        <div className="song-mark">{bgm.description}</div>
       </div>
     </div>
   );
