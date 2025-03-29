@@ -1,15 +1,20 @@
 .app-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   min-height: 100vh;
-  padding: 2rem;
-  position: relative;
+  padding: 20px;
+  background-color: #1a1a2e;
 }
 
 .main-content {
   max-width: 800px;
   width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -47,4 +52,40 @@ button {
 button:hover {
   transform: translateY(-2px);
   background: #45b392;
+}
+
+.score-panel {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 150px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.score-item {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.score-item:last-child {
+  margin-bottom: 0;
+}
+
+.score-item h3 {
+  margin: 0;
+  color: #4ecca3;
+  font-size: 1.1em;
+}
+
+.score-item p {
+  margin: 5px 0 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff;
 } 

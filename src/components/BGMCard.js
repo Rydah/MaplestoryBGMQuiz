@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './BGMCard.css';
 import Fuse from 'fuse.js';
 
-function BGMCard({ bgm, onNext, allSongs }) {
+function BGMCard({ bgm, onNext, allSongs, onGuess }) {
   const [guess, setGuess] = useState('');
   const [showAnswer, setShowAnswer] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -195,6 +195,7 @@ function BGMCard({ bgm, onNext, allSongs }) {
     setIsCorrect(isCorrect);
     setGuess('');
     setSuggestions([]);
+    onGuess(isCorrect);
   };
 
   const handleNext = () => {

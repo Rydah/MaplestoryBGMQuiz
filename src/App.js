@@ -9,6 +9,7 @@ function App() {
   const [filteredData, setFilteredData] = useState([]);
   const [currentBGM, setCurrentBGM] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [score, setScore] = useState({ correct: 0, total: 0 });
   const [settings, setSettings] = useState({
     selectedClient: '',
     dateRange: {
@@ -65,8 +66,30 @@ function App() {
     setCurrentBGM(randomBGM);
   };
 
+  const handleGuess = (isCorrect) => {
+    setScore(prev => ({
+      correct: isCorrect ? prev.correct + 1 : prev.correct,
+      total: prev.total + 1
+    }));
+  };
+
+  const getPercentage = () => {
+    if (score.total === 0) return 0;
+    return Math.round((score.correct / score.total) * 100);
+  };
+
   return (
     <div className="app-container">
+      <div className="score-panel">
+        <div className="score-item">
+          <h3>Score</h3>
+          <p>{score.correct}/{score.total}</p>
+        </div>
+        <div className="score-item">
+          <h3>Accuracy</h3>
+          <p>{getPercentage()}%</p>
+        </div>
+      </div>
       <Settings 
         settings={settings} 
         onChange={setSettings}
@@ -80,6 +103,7 @@ function App() {
             bgm={currentBGM}
             onNext={getRandomBGM}
             allSongs={filteredData}
+            onGuess={handleGuess}
           />
         )}
       </div>
