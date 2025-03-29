@@ -1,37 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   padding: 20px;
-  background-color: #1a1a2e;
+  overflow: hidden;
 }
 
 .main-content {
   max-width: 800px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 2rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  padding: 1rem;
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .container {
   max-width: 800px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 2rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  padding: 1rem;
+  overflow: hidden;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #4ecca3;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 button {
