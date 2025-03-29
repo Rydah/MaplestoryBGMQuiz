@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MaplestoryBGMQuiz/static/css/main.129497be.css",
-    "main.js": "/MaplestoryBGMQuiz/static/js/main.433cc65b.js",
+    "main.css": "/MaplestoryBGMQuiz/static/css/main.15403001.css",
+    "main.js": "/MaplestoryBGMQuiz/static/js/main.0d1c2178.js",
     "index.html": "/MaplestoryBGMQuiz/index.html",
-    "main.129497be.css.map": "/MaplestoryBGMQuiz/static/css/main.129497be.css.map",
-    "main.433cc65b.js.map": "/MaplestoryBGMQuiz/static/js/main.433cc65b.js.map"
+    "main.15403001.css.map": "/MaplestoryBGMQuiz/static/css/main.15403001.css.map",
+    "main.0d1c2178.js.map": "/MaplestoryBGMQuiz/static/js/main.0d1c2178.js.map"
   },
   "entrypoints": [
-    "static/css/main.129497be.css",
-    "static/js/main.433cc65b.js"
+    "static/css/main.15403001.css",
+    "static/js/main.0d1c2178.js"
   ]
 }
