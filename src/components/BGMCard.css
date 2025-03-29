@@ -1,0 +1,50 @@
+.bgm-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.bgm-title {
+  font-size: 2rem;
+  color: #4ecca3;
+  margin-bottom: 1rem;
+}
+
+.bgm-description {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 1.5rem;
+}
+
+.metadata {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.metadata-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.metadata-label {
+  color: #4ecca3;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.metadata-value {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.filename {
+  font-family: monospace;
+  color: #ddd;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+} 

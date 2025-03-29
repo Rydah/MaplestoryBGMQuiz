@@ -1,0 +1,2880 @@
+[
+    {
+        "description": "Mushroom Castle storyline conclusion",
+        "filename": "FlowerVioletaInst",
+        "mark": "flowervioleta",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Flower Violeta ~instrumental ver.~",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-10-29",
+            "structure": "Bgm38",
+            "version": "1.56"
+        },
+        "youtube": "-mkp5uMyF5g"
+    },
+    {
+        "description": "Bamon League",
+        "filename": "rock'nBattle",
+        "mark": "FreeMarket",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Rock 'n Battle",
+            "year": "2013"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2013-06-19",
+            "structure": "BgmBT",
+            "version": "1.37"
+        },
+        "youtube": "vlVRgdYxFXk"
+    },
+    {
+        "description": "Amoria",
+        "filename": "amoria",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Amoria",
+            "year": "2006"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2006-12-06",
+            "structure": "BgmGL",
+            "version": "0.32"
+        },
+        "youtube": "hCdooZxzISo"
+    },
+    {
+        "description": "Amorian Challenge",
+        "filename": "Amorianchallenge",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Amorian Challenge",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-06-13",
+            "structure": "BgmGL",
+            "version": "0.39"
+        },
+        "youtube": "fetvn2jzc9Q"
+    },
+    {
+        "description": "Crimsonwood: Bigfoot boss theme",
+        "filename": "Bigfoot",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Bigfoot",
+            "year": "2008"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2008-08-14",
+            "structure": "BgmGL",
+            "version": "0.59"
+        },
+        "youtube": "X0pUdlLwIhA"
+    },
+    {
+        "description": "Blackgate City",
+        "filename": "Blackgate",
+        "mark": "BlackgateCity",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Blackgate",
+            "year": "2015"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2015-07-08",
+            "structure": "BgmGL",
+            "version": "1.63"
+        },
+        "youtube": "2v-Mm-soYvw"
+    },
+    {
+        "description": "Amoria: Cathedral",
+        "filename": "cathedral",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Cathedral",
+            "year": "2006"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2006-12-06",
+            "structure": "BgmGL",
+            "version": "0.32"
+        },
+        "youtube": "uqBUXZdBvVU"
+    },
+    {
+        "description": "Amoria: Chapel",
+        "filename": "chapel",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Chapel",
+            "year": "2006"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2006-12-06",
+            "structure": "BgmGL",
+            "version": "0.32"
+        },
+        "youtube": "NJ6UMbOgQjU"
+    },
+    {
+        "description": "Crimsonwood Keep: Courtyard",
+        "filename": "Courtyard",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Courtyard",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-03-05",
+            "structure": "BgmGL",
+            "version": "0.66"
+        },
+        "youtube": "h0_8MftVy90"
+    },
+    {
+        "description": "Crimsonwood Mountain (pre-2019)",
+        "filename": "CrimsonwoodKeep",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Crimsonwood Keep",
+            "year": "2008"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2008-08-14",
+            "structure": "BgmGL",
+            "version": "0.59"
+        },
+        "youtube": "CZoYt7HHSik"
+    },
+    {
+        "description": "Crimsonwood Keep",
+        "filename": "CrimsonwoodKeepInterior",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Crimsonwood Keep Interior",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-03-05",
+            "structure": "BgmGL",
+            "version": "0.66"
+        },
+        "youtube": "qbY2KUn3dmM"
+    },
+    {
+        "description": "2024 Dark Maplemas event",
+        "filename": "DarkMaplemasEve",
+        "mark": "DarkMaplemas",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Dark Maplemas Eve",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-12-17",
+            "structure": "BgmGL",
+            "version": "2.56"
+        },
+        "youtube": "x3z9YMomTkc"
+    },
+    {
+        "description": "2015 Sizzling Santa event",
+        "filename": "GLBurningSanta",
+        "mark": "HappyVillage",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Burning Santa",
+            "year": "2015"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2015-12-02",
+            "structure": "BgmGL",
+            "version": "1.68"
+        },
+        "youtube": "W8uREXc8Tzk"
+    },
+    {
+        "description": "MapleStory GO WEST! Maple Boys theme",
+        "filename": "GoWest_MapleBoys",
+        "mark": "1006520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Go West: Maple Boys",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-06-12",
+            "structure": "BgmGL",
+            "version": "2.51"
+        },
+        "youtube": "biwVhDM4B94"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "MapleStory GO WEST! Maple Boys theme",
+        "filename": "GoWest_MapleBoys_Loop",
+        "mark": "1006520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Go West: Maple Boys -loop-",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-06-12",
+            "structure": "BgmGL",
+            "version": "2.51"
+        },
+        "youtube": "tgc8zjJ-KJU"
+    },
+    {
+        "description": "MapleStory GO WEST! Maple Punk theme",
+        "filename": "GoWest_MaplePunk",
+        "mark": "1006522",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Go West: Maple Punk",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-07-17",
+            "structure": "BgmGL",
+            "version": "2.52"
+        },
+        "youtube": "Oj9xvZi8IbY"
+    },
+    {
+        "description": "Crimsonwood Party Quest: Grandmaster boss theme",
+        "filename": "GrandmastersGauntlet",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Grandmaster's Gauntlet",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-03-05",
+            "structure": "BgmGL",
+            "version": "0.66"
+        },
+        "youtube": "rsASgHchliQ"
+    },
+    {
+        "description": "Haunted House",
+        "filename": "HauntedHouse",
+        "mark": "Halloween",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Haunted House",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-10-11",
+            "structure": "BgmGL",
+            "version": "0.44"
+        },
+        "youtube": "nbGQyrGizRQ"
+    },
+    {
+        "description": "2015 Halloween: Madhouse",
+        "filename": "MadHouse",
+        "mark": "MadHouse",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Madhouse",
+            "year": "2015"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2015-10-06",
+            "structure": "BgmGL",
+            "version": "1.66"
+        },
+        "youtube": "lRC_rHuks08"
+    },
+    {
+        "description": "2015 Halloween: Madhouse ending",
+        "filename": "MadHouseEnding",
+        "mark": "MadHouse",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Madhouse Ending",
+            "year": "2015"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2015-10-06",
+            "structure": "BgmGL",
+            "version": "1.66"
+        },
+        "youtube": "61JeULEXhZg"
+    },
+    {
+        "description": "Masteria Through Time: Act 3 Naricain's Assault",
+        "filename": "MBlockbusterC",
+        "mark": "GLblockbuster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "War for the Castle",
+            "titleAlt": "Masteria Through Time C",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-03-10",
+            "structure": "BgmGL",
+            "version": "1.71"
+        },
+        "youtube": "kMp88mh3uB0"
+    },
+    {
+        "description": "Masteria Through Time theme",
+        "filename": "MBlockbusterE1",
+        "mark": "GLblockbuster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "An Eternal Breath -instrumental-",
+            "titleAlt": "Masteria Through Time E1",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-03-10",
+            "structure": "BgmGL",
+            "version": "1.71"
+        },
+        "youtube": "sLoeKIxeHIM"
+    },
+    {
+        "description": "Masteria Through Time: Act 4 ending",
+        "filename": "MBlockbusterE2",
+        "mark": "GLblockbuster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "An Eternal Breath",
+            "titleAlt": "Masteria Through Time E2",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-03-10",
+            "structure": "BgmGL",
+            "version": "1.71"
+        },
+        "youtube": "a5inRrauUZA"
+    },
+    {
+        "description": "Masteria Through Time: Act 1 Krakian Jungle",
+        "filename": "MBlockbusterJ",
+        "mark": "GLblockbuster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Jungle Pursuit",
+            "titleAlt": "Masteria Through Time J",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-03-10",
+            "structure": "BgmGL",
+            "version": "1.71"
+        },
+        "youtube": "GKfCI58qgwM"
+    },
+    {
+        "description": "2022 New Leaf City: Galacto-Drill boss theme",
+        "filename": "NLC_boss",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Boss",
+            "year": "2012"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2012-03-14",
+            "structure": "BgmGL",
+            "version": "1.07"
+        },
+        "youtube": "X6GR21aZ7WM"
+    },
+    {
+        "description": "2022 New Leaf City: Krakian Jungle",
+        "filename": "NLC_field",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Field",
+            "year": "2012"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2012-03-14",
+            "structure": "BgmGL",
+            "version": "1.07"
+        },
+        "youtube": "yYfxATnVF1Q"
+    },
+    {
+        "description": "New Leaf City: Krakian Jungle",
+        "filename": "NLChunt",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Hunt",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-07-26",
+            "structure": "BgmGL",
+            "version": "0.40"
+        },
+        "youtube": "UB_Dn0LCYLE"
+    },
+    {
+        "description": "2022 New Leaf City: Alien Base",
+        "filename": "NLC_kidnap",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Kidnap",
+            "year": "2012"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2012-03-14",
+            "structure": "BgmGL",
+            "version": "1.07"
+        },
+        "youtube": "Ye-iYhVZpcI"
+    },
+    {
+        "description": "New Leaf City",
+        "filename": "NLCtown",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Town",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-07-26",
+            "structure": "BgmGL",
+            "version": "0.40"
+        },
+        "youtube": "EXv5madDarI"
+    },
+    {
+        "description": "2022 New Leaf City",
+        "filename": "NLC_town (2022 NLC)",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Town (Alien Invasion)",
+            "year": "2012"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2012-03-14",
+            "structure": "BgmGL",
+            "version": "1.07"
+        },
+        "youtube": "SuNPfne8Oxw"
+    },
+    {
+        "description": "New Leaf City: MesoGears",
+        "filename": "NLCupbeat",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Upbeat",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-07-26",
+            "structure": "BgmGL",
+            "version": "0.40"
+        },
+        "youtube": "d0kE_pLlE2U"
+    },
+    {
+        "description": "2024 Dark Maplemas event",
+        "filename": "OHolyFright",
+        "mark": "DarkMaplemas",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "O Holy Fright",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-12-17",
+            "structure": "BgmGL",
+            "version": "2.56"
+        },
+        "youtube": "dFyYUc9VSgg"
+    },
+    {
+        "description": "Crimsonwood Keep Party Quest",
+        "filename": "PartyQuestGL",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Crimsonwood Party Quest",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-03-05",
+            "structure": "BgmGL",
+            "version": "0.66"
+        },
+        "youtube": "xfq61ugRGBo"
+    },
+    {
+        "description": "Crimsonwood: Phantom Forest (pre-2019)",
+        "filename": "PhantomForest (Original)",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Phantom Forest (Original)",
+            "year": "2008"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2008-08-14",
+            "structure": "BgmGL",
+            "version": "0.59"
+        },
+        "youtube": "JDK9B4IWxdg"
+    },
+    {
+        "description": "2024 Dark Maplemas event",
+        "filename": "SlayRide",
+        "mark": "DarkMaplemas",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Slay Ride",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-12-17",
+            "structure": "BgmGL",
+            "version": "2.56"
+        },
+        "youtube": "dTtTTpd7JvI"
+    },
+    {
+        "description": "MapleStory Hi-Five showcase mashup login theme",
+        "filename": "VHIFIVE",
+        "mark": "Event",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "DJ Searcher",
+            "title": "V Hi-Five",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-11-30",
+            "structure": "BgmGL",
+            "version": "1.78"
+        },
+        "youtube": "5mc1scCcHwY"
+    },
+    {
+        "description": "Mr. Lee World Tour: China",
+        "filename": "china",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: China",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "ATYgxfxPTgI"
+    },
+    {
+        "description": "Mr. Lee World Tour: Europe",
+        "filename": "europe",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Europe",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "_B6q_BimGsA"
+    },
+    {
+        "description": "Mr. Lee World Tour: Japan",
+        "filename": "japan",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Japan",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "MFVwKUHbz-o"
+    },
+    {
+        "description": "Mr. Lee World Tour: Malaysia",
+        "filename": "malaysia",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Malaysia",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "_IqL4rg2MmM"
+    },
+    {
+        "description": "Mr. Lee World Tour: Island 7",
+        "filename": "mrleeisland",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee Island",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "UrJrZKgTiYY"
+    },
+    {
+        "description": "Mr. Lee World Tour: Singapore",
+        "filename": "singapore",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Singapore",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "tK8yb2SYl3o"
+    },
+    {
+        "description": "Mr. Lee World Tour: Taiwan",
+        "filename": "taiwan",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Taiwan",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "hrZNYd5uYyI"
+    },
+    {
+        "description": "Mr. Lee World Tour: Thailand",
+        "filename": "thailand",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Thailand",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "ozpBZVrtEJI"
+    },
+    {
+        "description": "Dice Master event",
+        "filename": "DiceMaster",
+        "mark": "PL_DiceMaster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Dice Master",
+            "year": "2017"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2017-08-30",
+            "structure": "BgmPL",
+            "version": "1.88"
+        },
+        "youtube": "wSwXwkgS4bU"
+    },
+    {
+        "description": "Ancient Ruins Party Quest",
+        "filename": "GL_AdvPQ",
+        "mark": "GL_AdvPQ",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Adventure Party Quest",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-07-24",
+            "structure": "BgmPL",
+            "version": "2.06"
+        },
+        "youtube": "uLKwfP50iwE"
+    },
+    {
+        "description": "Spot the Difference event",
+        "filename": "HiddenCatch",
+        "mark": "BZ_HiddenCatch",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Hidden Catch",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-03-06",
+            "structure": "BgmPL",
+            "version": "2.03"
+        },
+        "youtube": "D2XRv39wAFo"
+    },
+    {
+        "description": "The Afterlands: Land of Contemplation (Day)",
+        "filename": "LandofContemplation_Day",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Can You Read My Thoughts?",
+            "titleAlt": "Land of Contemplation ~day~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "Dc0mE4k422w"
+    },
+    {
+        "description": "The Afterlands: Land of Contemplation (Night)",
+        "filename": "LandofContemplation_Night",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Can You Read My Thoughts? -night-",
+            "titleAlt": "Land of Contemplation ~night~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "xK099Yuc1ck"
+    },
+    {
+        "description": "The Afterlands: Land of Innocence (Day)",
+        "filename": "LandofInnocence_Day",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The Dancing Weathercock",
+            "titleAlt": "Land of Innocence ~day~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "ROmgAQZh_LU"
+    },
+    {
+        "description": "The Afterlands: Land of Innocence (Night)",
+        "filename": "LandofInnocence_Night (Original)",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The Dancing Weathercock -night- (Alternate)",
+            "titleAlt": "Land of Innocence ~night~ (Alternate)",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "pzvy-bBGLDM"
+    },
+    {
+        "description": "The Afterlands: Land of Riches (Day)",
+        "filename": "LandofRiches_Day",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The World of Paradox",
+            "titleAlt": "Land of Riches ~day~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "wq7kiyL8yHw"
+    },
+    {
+        "description": "The Afterlands: Land of Riches (Night)",
+        "filename": "LandofRiches_Night (Original)",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The World of Paradox -night- (Alternate)",
+            "titleAlt": "Land of Riches ~night~ (Alternate)",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "fpbzFDITpUs"
+    },
+    {
+        "description": "The Afterlands: Land of Warriors (Day)",
+        "filename": "LandofWarriors_Day",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Bottoms Up!",
+            "titleAlt": "Land of Warriors ~day~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "FLiC1zt_U1s"
+    },
+    {
+        "description": "The Afterlands: Land of Warriors (Night)",
+        "filename": "LandofWarriors_Night",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Bottoms Up! -night-",
+            "titleAlt": "Land of Warriors ~night~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "kVE2hSgJ3cQ"
+    },
+    {
+        "description": "Nexon America splash",
+        "filename": "NxLogoMS",
+        "mark": "TestServer",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Nexon America Logo",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-08-26",
+            "structure": "BgmUI",
+            "version": "0.75"
+        },
+        "youtube": "IUnEmjvparM"
+    },
+    {
+        "description": "The Dark Ride: Limbo - login theme",
+        "filename": "Title_DarkRideLimbo",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The Dark Ride: Limbo - Title Theme",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-12-17",
+            "structure": "BgmUI",
+            "version": "2.56"
+        },
+        "youtube": "H2g58kSwk7Q"
+    },
+    {
+        "description": "2024 Ride or Die event login theme",
+        "filename": "Title_RideOrDie",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Title Theme",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "BgmUI",
+            "version": "2.55"
+        },
+        "youtube": "4IAVg2iqMRY"
+    },
+    {
+        "description": "Krakian Jungle: Excavation Site",
+        "filename": "Cerberusian",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Cerberusian",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "c1iOUKGxcKY"
+    },
+    {
+        "description": "Crimsonwood Mountain",
+        "filename": "CrimsonMountain",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Crimson Mountain",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "6L1PLMErNf0"
+    },
+    {
+        "description": "Krakian Jungle",
+        "filename": "Nostalgia",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Nostalgia",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "d9yQgNcuUhA"
+    },
+    {
+        "description": "Crimsonwood: Phantom Forest",
+        "filename": "PhantomForest",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Phantom Forest",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "8sRMf0ZhAtw"
+    },
+    {
+        "description": "Crimsonwood: Phantom Forest boss theme",
+        "filename": "Resurrection",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Resurrection",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "eqz3XODQj1c"
+    },
+    {
+        "description": "Crimsonwood Keep: Council Hall",
+        "filename": "toVersal",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "To Versal",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "GtO4mTwY-XA"
+    },
+    {
+        "description": "Crimsonwood: Phantom Forest (Sanity effect)",
+        "filename": "Whisper",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Whisper",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "ZoDAV2hJ1WU"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Darknell",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Darknell",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "LQ9l13sm0UQ"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Horntail",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Horntail",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "TW1gdJFqhvQ"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Papulatus",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Papulatus",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "DA5wnJSSX2o"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Slime",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Guardian Angel Slime",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "b9JSZsuZ-iE"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Vellum",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Vellum",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "IX331xoK2zw"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Zakum",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Zakum",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "3W5dig5Q_gI"
+    },
+    {
+        "description": "2024 Ride or Die event",
+        "filename": "RIDEORDIE",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Entrance",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "uwlUwHk1wE8"
+    },
+    {
+        "description": "2024 Ride or Die event",
+        "filename": "ROD_Cave",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Cave",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "N2cLsMEl4Fo"
+    },
+    {
+        "description": "Mushroom Castle storyline conclusion",
+        "filename": "FlowerVioletaInst",
+        "mark": "flowervioleta",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Flower Violeta ~instrumental ver.~",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-10-29",
+            "structure": "Bgm38",
+            "version": "1.56"
+        },
+        "youtube": "-mkp5uMyF5g"
+    },
+    {
+        "description": "Bamon League",
+        "filename": "rock'nBattle",
+        "mark": "FreeMarket",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Rock 'n Battle",
+            "year": "2013"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2013-06-19",
+            "structure": "BgmBT",
+            "version": "1.37"
+        },
+        "youtube": "vlVRgdYxFXk"
+    },
+    {
+        "description": "Amoria",
+        "filename": "amoria",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Amoria",
+            "year": "2006"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2006-12-06",
+            "structure": "BgmGL",
+            "version": "0.32"
+        },
+        "youtube": "hCdooZxzISo"
+    },
+    {
+        "description": "Amorian Challenge",
+        "filename": "Amorianchallenge",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Amorian Challenge",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-06-13",
+            "structure": "BgmGL",
+            "version": "0.39"
+        },
+        "youtube": "fetvn2jzc9Q"
+    },
+    {
+        "description": "Crimsonwood: Bigfoot boss theme",
+        "filename": "Bigfoot",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Bigfoot",
+            "year": "2008"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2008-08-14",
+            "structure": "BgmGL",
+            "version": "0.59"
+        },
+        "youtube": "X0pUdlLwIhA"
+    },
+    {
+        "description": "Blackgate City",
+        "filename": "Blackgate",
+        "mark": "BlackgateCity",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Blackgate",
+            "year": "2015"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2015-07-08",
+            "structure": "BgmGL",
+            "version": "1.63"
+        },
+        "youtube": "2v-Mm-soYvw"
+    },
+    {
+        "description": "Amoria: Cathedral",
+        "filename": "cathedral",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Cathedral",
+            "year": "2006"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2006-12-06",
+            "structure": "BgmGL",
+            "version": "0.32"
+        },
+        "youtube": "uqBUXZdBvVU"
+    },
+    {
+        "description": "Amoria: Chapel",
+        "filename": "chapel",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Chapel",
+            "year": "2006"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2006-12-06",
+            "structure": "BgmGL",
+            "version": "0.32"
+        },
+        "youtube": "NJ6UMbOgQjU"
+    },
+    {
+        "description": "Crimsonwood Keep: Courtyard",
+        "filename": "Courtyard",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Courtyard",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-03-05",
+            "structure": "BgmGL",
+            "version": "0.66"
+        },
+        "youtube": "h0_8MftVy90"
+    },
+    {
+        "description": "Crimsonwood Mountain (pre-2019)",
+        "filename": "CrimsonwoodKeep",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Crimsonwood Keep",
+            "year": "2008"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2008-08-14",
+            "structure": "BgmGL",
+            "version": "0.59"
+        },
+        "youtube": "CZoYt7HHSik"
+    },
+    {
+        "description": "Crimsonwood Keep",
+        "filename": "CrimsonwoodKeepInterior",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Crimsonwood Keep Interior",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-03-05",
+            "structure": "BgmGL",
+            "version": "0.66"
+        },
+        "youtube": "qbY2KUn3dmM"
+    },
+    {
+        "description": "2024 Dark Maplemas event",
+        "filename": "DarkMaplemasEve",
+        "mark": "DarkMaplemas",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Dark Maplemas Eve",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-12-17",
+            "structure": "BgmGL",
+            "version": "2.56"
+        },
+        "youtube": "x3z9YMomTkc"
+    },
+    {
+        "description": "2015 Sizzling Santa event",
+        "filename": "GLBurningSanta",
+        "mark": "HappyVillage",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Burning Santa",
+            "year": "2015"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2015-12-02",
+            "structure": "BgmGL",
+            "version": "1.68"
+        },
+        "youtube": "W8uREXc8Tzk"
+    },
+    {
+        "description": "MapleStory GO WEST! Maple Boys theme",
+        "filename": "GoWest_MapleBoys",
+        "mark": "1006520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Go West: Maple Boys",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-06-12",
+            "structure": "BgmGL",
+            "version": "2.51"
+        },
+        "youtube": "biwVhDM4B94"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "MapleStory GO WEST! Maple Boys theme",
+        "filename": "GoWest_MapleBoys_Loop",
+        "mark": "1006520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Go West: Maple Boys -loop-",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-06-12",
+            "structure": "BgmGL",
+            "version": "2.51"
+        },
+        "youtube": "tgc8zjJ-KJU"
+    },
+    {
+        "description": "MapleStory GO WEST! Maple Punk theme",
+        "filename": "GoWest_MaplePunk",
+        "mark": "1006522",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Go West: Maple Punk",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-07-17",
+            "structure": "BgmGL",
+            "version": "2.52"
+        },
+        "youtube": "Oj9xvZi8IbY"
+    },
+    {
+        "description": "Crimsonwood Party Quest: Grandmaster boss theme",
+        "filename": "GrandmastersGauntlet",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Grandmaster's Gauntlet",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-03-05",
+            "structure": "BgmGL",
+            "version": "0.66"
+        },
+        "youtube": "rsASgHchliQ"
+    },
+    {
+        "description": "Haunted House",
+        "filename": "HauntedHouse",
+        "mark": "Halloween",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Haunted House",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-10-11",
+            "structure": "BgmGL",
+            "version": "0.44"
+        },
+        "youtube": "nbGQyrGizRQ"
+    },
+    {
+        "description": "2015 Halloween: Madhouse",
+        "filename": "MadHouse",
+        "mark": "MadHouse",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Madhouse",
+            "year": "2015"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2015-10-06",
+            "structure": "BgmGL",
+            "version": "1.66"
+        },
+        "youtube": "lRC_rHuks08"
+    },
+    {
+        "description": "2015 Halloween: Madhouse ending",
+        "filename": "MadHouseEnding",
+        "mark": "MadHouse",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Madhouse Ending",
+            "year": "2015"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2015-10-06",
+            "structure": "BgmGL",
+            "version": "1.66"
+        },
+        "youtube": "61JeULEXhZg"
+    },
+    {
+        "description": "Masteria Through Time: Act 3 Naricain's Assault",
+        "filename": "MBlockbusterC",
+        "mark": "GLblockbuster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "War for the Castle",
+            "titleAlt": "Masteria Through Time C",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-03-10",
+            "structure": "BgmGL",
+            "version": "1.71"
+        },
+        "youtube": "kMp88mh3uB0"
+    },
+    {
+        "description": "Masteria Through Time theme",
+        "filename": "MBlockbusterE1",
+        "mark": "GLblockbuster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "An Eternal Breath -instrumental-",
+            "titleAlt": "Masteria Through Time E1",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-03-10",
+            "structure": "BgmGL",
+            "version": "1.71"
+        },
+        "youtube": "sLoeKIxeHIM"
+    },
+    {
+        "description": "Masteria Through Time: Act 4 ending",
+        "filename": "MBlockbusterE2",
+        "mark": "GLblockbuster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "An Eternal Breath",
+            "titleAlt": "Masteria Through Time E2",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-03-10",
+            "structure": "BgmGL",
+            "version": "1.71"
+        },
+        "youtube": "a5inRrauUZA"
+    },
+    {
+        "description": "Masteria Through Time: Act 1 Krakian Jungle",
+        "filename": "MBlockbusterJ",
+        "mark": "GLblockbuster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Jungle Pursuit",
+            "titleAlt": "Masteria Through Time J",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-03-10",
+            "structure": "BgmGL",
+            "version": "1.71"
+        },
+        "youtube": "GKfCI58qgwM"
+    },
+    {
+        "description": "2022 New Leaf City: Galacto-Drill boss theme",
+        "filename": "NLC_boss",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Boss",
+            "year": "2012"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2012-03-14",
+            "structure": "BgmGL",
+            "version": "1.07"
+        },
+        "youtube": "X6GR21aZ7WM"
+    },
+    {
+        "description": "2022 New Leaf City: Krakian Jungle",
+        "filename": "NLC_field",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Field",
+            "year": "2012"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2012-03-14",
+            "structure": "BgmGL",
+            "version": "1.07"
+        },
+        "youtube": "yYfxATnVF1Q"
+    },
+    {
+        "description": "New Leaf City: Krakian Jungle",
+        "filename": "NLChunt",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Hunt",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-07-26",
+            "structure": "BgmGL",
+            "version": "0.40"
+        },
+        "youtube": "UB_Dn0LCYLE"
+    },
+    {
+        "description": "2022 New Leaf City: Alien Base",
+        "filename": "NLC_kidnap",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Kidnap",
+            "year": "2012"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2012-03-14",
+            "structure": "BgmGL",
+            "version": "1.07"
+        },
+        "youtube": "Ye-iYhVZpcI"
+    },
+    {
+        "description": "New Leaf City",
+        "filename": "NLCtown",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Town",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-07-26",
+            "structure": "BgmGL",
+            "version": "0.40"
+        },
+        "youtube": "EXv5madDarI"
+    },
+    {
+        "description": "2022 New Leaf City",
+        "filename": "NLC_town (2022 NLC)",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Town (Alien Invasion)",
+            "year": "2012"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2012-03-14",
+            "structure": "BgmGL",
+            "version": "1.07"
+        },
+        "youtube": "SuNPfne8Oxw"
+    },
+    {
+        "description": "New Leaf City: MesoGears",
+        "filename": "NLCupbeat",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "New Leaf City - Upbeat",
+            "year": "2007"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2007-07-26",
+            "structure": "BgmGL",
+            "version": "0.40"
+        },
+        "youtube": "d0kE_pLlE2U"
+    },
+    {
+        "description": "2024 Dark Maplemas event",
+        "filename": "OHolyFright",
+        "mark": "DarkMaplemas",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "O Holy Fright",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-12-17",
+            "structure": "BgmGL",
+            "version": "2.56"
+        },
+        "youtube": "dFyYUc9VSgg"
+    },
+    {
+        "description": "Crimsonwood Keep Party Quest",
+        "filename": "PartyQuestGL",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Crimsonwood Party Quest",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-03-05",
+            "structure": "BgmGL",
+            "version": "0.66"
+        },
+        "youtube": "xfq61ugRGBo"
+    },
+    {
+        "description": "Crimsonwood: Phantom Forest (pre-2019)",
+        "filename": "PhantomForest (Original)",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Phantom Forest (Original)",
+            "year": "2008"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2008-08-14",
+            "structure": "BgmGL",
+            "version": "0.59"
+        },
+        "youtube": "JDK9B4IWxdg"
+    },
+    {
+        "description": "2024 Dark Maplemas event",
+        "filename": "SlayRide",
+        "mark": "DarkMaplemas",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Slay Ride",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-12-17",
+            "structure": "BgmGL",
+            "version": "2.56"
+        },
+        "youtube": "dTtTTpd7JvI"
+    },
+    {
+        "description": "MapleStory Hi-Five showcase mashup login theme",
+        "filename": "VHIFIVE",
+        "mark": "Event",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "DJ Searcher",
+            "title": "V Hi-Five",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-11-30",
+            "structure": "BgmGL",
+            "version": "1.78"
+        },
+        "youtube": "5mc1scCcHwY"
+    },
+    {
+        "description": "Mr. Lee World Tour: China",
+        "filename": "china",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: China",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "ATYgxfxPTgI"
+    },
+    {
+        "description": "Mr. Lee World Tour: Europe",
+        "filename": "europe",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Europe",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "_B6q_BimGsA"
+    },
+    {
+        "description": "Mr. Lee World Tour: Japan",
+        "filename": "japan",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Japan",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "MFVwKUHbz-o"
+    },
+    {
+        "description": "Mr. Lee World Tour: Malaysia",
+        "filename": "malaysia",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Malaysia",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "_IqL4rg2MmM"
+    },
+    {
+        "description": "Mr. Lee World Tour: Island 7",
+        "filename": "mrleeisland",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee Island",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "UrJrZKgTiYY"
+    },
+    {
+        "description": "Mr. Lee World Tour: Singapore",
+        "filename": "singapore",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Singapore",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "tK8yb2SYl3o"
+    },
+    {
+        "description": "Mr. Lee World Tour: Taiwan",
+        "filename": "taiwan",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Taiwan",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "hrZNYd5uYyI"
+    },
+    {
+        "description": "Mr. Lee World Tour: Thailand",
+        "filename": "thailand",
+        "mark": "worldTour",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Mr. Lee World Tour: Thailand",
+            "year": "2014"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2014-12-03",
+            "structure": "BgmGL2D",
+            "version": "1.57"
+        },
+        "youtube": "ozpBZVrtEJI"
+    },
+    {
+        "description": "Dice Master event",
+        "filename": "DiceMaster",
+        "mark": "PL_DiceMaster",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Dice Master",
+            "year": "2017"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2017-08-30",
+            "structure": "BgmPL",
+            "version": "1.88"
+        },
+        "youtube": "wSwXwkgS4bU"
+    },
+    {
+        "description": "Ancient Ruins Party Quest",
+        "filename": "GL_AdvPQ",
+        "mark": "GL_AdvPQ",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Adventure Party Quest",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-07-24",
+            "structure": "BgmPL",
+            "version": "2.06"
+        },
+        "youtube": "uLKwfP50iwE"
+    },
+    {
+        "description": "Spot the Difference event",
+        "filename": "HiddenCatch",
+        "mark": "BZ_HiddenCatch",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Hidden Catch",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-03-06",
+            "structure": "BgmPL",
+            "version": "2.03"
+        },
+        "youtube": "D2XRv39wAFo"
+    },
+    {
+        "description": "The Afterlands: Land of Contemplation (Day)",
+        "filename": "LandofContemplation_Day",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Can You Read My Thoughts?",
+            "titleAlt": "Land of Contemplation ~day~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "Dc0mE4k422w"
+    },
+    {
+        "description": "The Afterlands: Land of Contemplation (Night)",
+        "filename": "LandofContemplation_Night",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Can You Read My Thoughts? -night-",
+            "titleAlt": "Land of Contemplation ~night~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "xK099Yuc1ck"
+    },
+    {
+        "description": "The Afterlands: Land of Innocence (Day)",
+        "filename": "LandofInnocence_Day",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The Dancing Weathercock",
+            "titleAlt": "Land of Innocence ~day~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "ROmgAQZh_LU"
+    },
+    {
+        "description": "The Afterlands: Land of Innocence (Night)",
+        "filename": "LandofInnocence_Night (Original)",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The Dancing Weathercock -night- (Alternate)",
+            "titleAlt": "Land of Innocence ~night~ (Alternate)",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "pzvy-bBGLDM"
+    },
+    {
+        "description": "The Afterlands: Land of Riches (Day)",
+        "filename": "LandofRiches_Day",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The World of Paradox",
+            "titleAlt": "Land of Riches ~day~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "wq7kiyL8yHw"
+    },
+    {
+        "description": "The Afterlands: Land of Riches (Night)",
+        "filename": "LandofRiches_Night (Original)",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The World of Paradox -night- (Alternate)",
+            "titleAlt": "Land of Riches ~night~ (Alternate)",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "fpbzFDITpUs"
+    },
+    {
+        "description": "The Afterlands: Land of Warriors (Day)",
+        "filename": "LandofWarriors_Day",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Bottoms Up!",
+            "titleAlt": "Land of Warriors ~day~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "FLiC1zt_U1s"
+    },
+    {
+        "description": "The Afterlands: Land of Warriors (Night)",
+        "filename": "LandofWarriors_Night",
+        "mark": "PL_AfterLand",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Bottoms Up! -night-",
+            "titleAlt": "Land of Warriors ~night~",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-10-19",
+            "structure": "BgmPL",
+            "version": "1.77"
+        },
+        "youtube": "kVE2hSgJ3cQ"
+    },
+    {
+        "description": "Nexon America splash",
+        "filename": "NxLogoMS",
+        "mark": "TestServer",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Nexon America Logo",
+            "year": "2009"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2009-08-26",
+            "structure": "BgmUI",
+            "version": "0.75"
+        },
+        "youtube": "IUnEmjvparM"
+    },
+    {
+        "description": "The Dark Ride: Limbo - login theme",
+        "filename": "Title_DarkRideLimbo",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "The Dark Ride: Limbo - Title Theme",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-12-17",
+            "structure": "BgmUI",
+            "version": "2.56"
+        },
+        "youtube": "H2g58kSwk7Q"
+    },
+    {
+        "description": "2024 Ride or Die event login theme",
+        "filename": "Title_RideOrDie",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Title Theme",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "BgmUI",
+            "version": "2.55"
+        },
+        "youtube": "4IAVg2iqMRY"
+    },
+    {
+        "description": "Krakian Jungle: Excavation Site",
+        "filename": "Cerberusian",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Cerberusian",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "c1iOUKGxcKY"
+    },
+    {
+        "description": "Crimsonwood Mountain",
+        "filename": "CrimsonMountain",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Crimson Mountain",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "6L1PLMErNf0"
+    },
+    {
+        "description": "Krakian Jungle",
+        "filename": "Nostalgia",
+        "mark": "NLC",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Nostalgia",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "d9yQgNcuUhA"
+    },
+    {
+        "description": "Crimsonwood: Phantom Forest",
+        "filename": "PhantomForest",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Phantom Forest",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "8sRMf0ZhAtw"
+    },
+    {
+        "description": "Crimsonwood: Phantom Forest boss theme",
+        "filename": "Resurrection",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Resurrection",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "eqz3XODQj1c"
+    },
+    {
+        "description": "Crimsonwood Keep: Council Hall",
+        "filename": "toVersal",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "To Versal",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "GtO4mTwY-XA"
+    },
+    {
+        "description": "Crimsonwood: Phantom Forest (Sanity effect)",
+        "filename": "Whisper",
+        "mark": "Crimsonwood",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Whisper",
+            "year": "2019"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2019-12-18",
+            "structure": "GL_Masteria",
+            "version": "2.10"
+        },
+        "youtube": "ZoDAV2hJ1WU"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Darknell",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Darknell",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "LQ9l13sm0UQ"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Horntail",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Horntail",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "TW1gdJFqhvQ"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Papulatus",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Papulatus",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "DA5wnJSSX2o"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Slime",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Guardian Angel Slime",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "b9JSZsuZ-iE"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Vellum",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Vellum",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "IX331xoK2zw"
+    },
+    {
+        "description": "2024 Ride or Die event boss theme",
+        "filename": "Boss_Zakum",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Zakum",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "3W5dig5Q_gI"
+    },
+    {
+        "description": "2024 Ride or Die event",
+        "filename": "RIDEORDIE",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Entrance",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "uwlUwHk1wE8"
+    },
+    {
+        "description": "2024 Ride or Die event",
+        "filename": "ROD_Cave",
+        "mark": "2024DarkRide",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Ride or Die - Cave",
+            "year": "2024"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2024-11-20",
+            "structure": "GL_RideOrDie",
+            "version": "2.55"
+        },
+        "youtube": "N2cLsMEl4Fo"
+    },
+    {
+        "description": "Mechanical Hearts: Aspire - Hidden Hallway",
+        "filename": "Beautyroid3_HiddenHallway",
+        "mark": "PL_Beautyroid",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Hidden Hallway",
+            "year": "2020"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2020-01-29",
+            "structure": "PL_Beautyroid",
+            "version": "2.11"
+        },
+        "youtube": "aentFD_-8uo"
+    },
+    {
+        "description": "Mechanical Hearts Season 3 ending",
+        "filename": "Beautyroid3_MoreHumanThanHuman",
+        "mark": "PL_Beautyroid",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "More Human Than Human",
+            "year": "2020"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2020-01-29",
+            "structure": "PL_Beautyroid",
+            "version": "2.11"
+        },
+        "youtube": "VrAPwZk0CFI"
+    },
+    {
+        "description": "Mechanical Hearts: Aspire - Scion's Lair",
+        "filename": "Beautyroid3_ScionsLair",
+        "mark": "PL_Beautyroid",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Scion's Lair",
+            "year": "2020"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2020-01-29",
+            "structure": "PL_Beautyroid",
+            "version": "2.11"
+        },
+        "youtube": "t6sLGm66uWY"
+    },
+    {
+        "description": "Mechanical Hearts - Scion's Invitation chair effect",
+        "filename": "Beautyroid3_UnseenPrison",
+        "mark": "PL_Beautyroid",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Unseen Prison",
+            "year": "2020"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2020-01-29",
+            "structure": "PL_Beautyroid",
+            "version": "2.11"
+        },
+        "youtube": "_t9zVOFNVlY"
+    },
+    {
+        "description": "2016 Icy Onslaught event",
+        "filename": "WinterFrenzy_Boss_All",
+        "mark": "Event",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Frenzy Winter (Alternate)",
+            "titleAlt": "Winter Frenzy Boss (All)",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-11-30",
+            "structure": "PL_WinterFrenzy",
+            "version": "1.78"
+        },
+        "youtube": "dwlGJS1b08g"
+    },
+    {
+        "description": "2016 Icy Onslaught event",
+        "filename": "WinterFrenzy_Boss_Bgm",
+        "mark": "Event",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Frenzy Winter",
+            "titleAlt": "Winter Frenzy Boss (BGM)",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-11-30",
+            "structure": "PL_WinterFrenzy",
+            "version": "1.78"
+        },
+        "youtube": "w9FJhoIyLqs"
+    },
+    {
+        "description": "Mechanical Hearts: Aspire - Hidden Hallway",
+        "filename": "Beautyroid3_HiddenHallway",
+        "mark": "PL_Beautyroid",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Hidden Hallway",
+            "year": "2020"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2020-01-29",
+            "structure": "PL_Beautyroid",
+            "version": "2.11"
+        },
+        "youtube": "aentFD_-8uo"
+    },
+    {
+        "description": "Mechanical Hearts Season 3 ending",
+        "filename": "Beautyroid3_MoreHumanThanHuman",
+        "mark": "PL_Beautyroid",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "More Human Than Human",
+            "year": "2020"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2020-01-29",
+            "structure": "PL_Beautyroid",
+            "version": "2.11"
+        },
+        "youtube": "VrAPwZk0CFI"
+    },
+    {
+        "description": "Mechanical Hearts: Aspire - Scion's Lair",
+        "filename": "Beautyroid3_ScionsLair",
+        "mark": "PL_Beautyroid",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Scion's Lair",
+            "year": "2020"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2020-01-29",
+            "structure": "PL_Beautyroid",
+            "version": "2.11"
+        },
+        "youtube": "t6sLGm66uWY"
+    },
+    {
+        "description": "Mechanical Hearts - Scion's Invitation chair effect",
+        "filename": "Beautyroid3_UnseenPrison",
+        "mark": "PL_Beautyroid",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Unseen Prison",
+            "year": "2020"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2020-01-29",
+            "structure": "PL_Beautyroid",
+            "version": "2.11"
+        },
+        "youtube": "_t9zVOFNVlY"
+    },
+    {
+        "description": "2016 Icy Onslaught event",
+        "filename": "WinterFrenzy_Boss_All",
+        "mark": "Event",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Frenzy Winter (Alternate)",
+            "titleAlt": "Winter Frenzy Boss (All)",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-11-30",
+            "structure": "PL_WinterFrenzy",
+            "version": "1.78"
+        },
+        "youtube": "dwlGJS1b08g"
+    },
+    {
+        "description": "2016 Icy Onslaught event",
+        "filename": "WinterFrenzy_Boss_Bgm",
+        "mark": "Event",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Frenzy Winter",
+            "titleAlt": "Winter Frenzy Boss (BGM)",
+            "year": "2016"
+        },
+        "source": {
+            "client": "GMS",
+            "date": "2016-11-30",
+            "structure": "PL_WinterFrenzy",
+            "version": "1.78"
+        },
+        "youtube": "w9FJhoIyLqs"
+    }
+]

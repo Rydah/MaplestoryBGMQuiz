@@ -1,0 +1,124 @@
+[
+    {
+        "description": "2019 Lunar New Year event",
+        "filename": "CNY_LoveLetter",
+        "mark": "PL_CNY2018",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Season's Greeting",
+            "titleAlt": "Lunar New Year: Love Letter",
+            "year": "2018"
+        },
+        "source": {
+            "client": "TMST",
+            "date": "2018-12-21",
+            "structure": "BgmWz2",
+            "version": "2.13"
+        },
+        "youtube": "1VzASddjwtE"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "2019 Lunar New Year event",
+        "filename": "CNY_LoveLetterA",
+        "mark": "PL_CNY2018",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Lunar New Year: Love Letter A",
+            "year": "2018"
+        },
+        "source": {
+            "client": "TMST",
+            "date": "2018-12-21",
+            "structure": "BgmWz2",
+            "version": "2.13"
+        },
+        "youtube": "m8MB56duRb0"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "2019 Lunar New Year event",
+        "filename": "CNY_LoveLetterB",
+        "mark": "PL_CNY2018",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Lunar New Year: Love Letter B",
+            "year": "2018"
+        },
+        "source": {
+            "client": "TMST",
+            "date": "2018-12-21",
+            "structure": "BgmWz2",
+            "version": "2.13"
+        },
+        "youtube": "q4he8niW-gk"
+    },
+    {
+        "description": "2019 Lunar New Year event",
+        "filename": "CNY_LoveLetter",
+        "mark": "PL_CNY2018",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Season's Greeting",
+            "titleAlt": "Lunar New Year: Love Letter",
+            "year": "2018"
+        },
+        "source": {
+            "client": "TMST",
+            "date": "2018-12-21",
+            "structure": "BgmWz2",
+            "version": "2.13"
+        },
+        "youtube": "1VzASddjwtE"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "2019 Lunar New Year event",
+        "filename": "CNY_LoveLetterA",
+        "mark": "PL_CNY2018",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Lunar New Year: Love Letter A",
+            "year": "2018"
+        },
+        "source": {
+            "client": "TMST",
+            "date": "2018-12-21",
+            "structure": "BgmWz2",
+            "version": "2.13"
+        },
+        "youtube": "m8MB56duRb0"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "2019 Lunar New Year event",
+        "filename": "CNY_LoveLetterB",
+        "mark": "PL_CNY2018",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Lunar New Year: Love Letter B",
+            "year": "2018"
+        },
+        "source": {
+            "client": "TMST",
+            "date": "2018-12-21",
+            "structure": "BgmWz2",
+            "version": "2.13"
+        },
+        "youtube": "q4he8niW-gk"
+    }
+]

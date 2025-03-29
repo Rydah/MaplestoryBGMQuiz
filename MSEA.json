@@ -1,0 +1,1634 @@
+[
+    {
+        "description": "Happyville (Alternate Version)",
+        "filename": "WhiteChristmasSea",
+        "mark": "HappyVillage",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "White Christmas (Alternate Version)",
+            "year": "2003"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-12-18",
+            "structure": "Bgm04",
+            "version": "0.49"
+        },
+        "youtube": "zAqyNzqqgT0"
+    },
+    {
+        "description": "Angelic Buster's Superstar Spotlight skill",
+        "filename": "5thSpotLightFlyAway (English)",
+        "mark": "Pantheon",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "Wizet",
+            "title": "5th Spotlight Fly Away (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "Bgm30",
+            "version": "2.32"
+        },
+        "youtube": "hkOtLzywHjY"
+    },
+    {
+        "description": "Angelic Buster's Grand Finale skill",
+        "filename": "6thGrandFinaleStarBubble (English)",
+        "mark": "Pantheon",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "6th Grand Finale Star Bubble (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "Bgm30",
+            "version": "2.32"
+        },
+        "youtube": "8ptGYzhGkz4"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "Angelic Buster's Pretty Exaltation skill",
+        "filename": "shiningHeart (English)",
+        "mark": "Pantheon",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Shining Heart (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "Bgm30",
+            "version": "2.32"
+        },
+        "youtube": "qZed3_Isd6I"
+    },
+    {
+        "description": "Malaysia: Fantasy Theme Park",
+        "filename": "Highland",
+        "mark": "Kampung",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Highland",
+            "year": "2008"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2008-08-28",
+            "structure": "BgmMY",
+            "version": "0.61"
+        },
+        "youtube": "gNafzBfyoTo"
+    },
+    {
+        "description": "Malaysia: Trend Zone Metropolis, Kampung Village",
+        "filename": "KualaLumpur",
+        "mark": "KualaLumpur",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Kuala Lumpur",
+            "year": "2008"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2008-08-28",
+            "structure": "BgmMY",
+            "version": "0.61"
+        },
+        "youtube": "aJNseQp1Tb4"
+    },
+    {
+        "description": "Wedding Hall BGM Style 1",
+        "filename": "newWedding0",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Wedding Hall 1",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-11-13",
+            "structure": "BgmPL2",
+            "version": "2.37"
+        },
+        "youtube": "uTusUDt93XA"
+    },
+    {
+        "description": "Wedding Hall BGM Style 2",
+        "filename": "newWedding1",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Wedding Hall 2",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-11-13",
+            "structure": "BgmPL2",
+            "version": "2.37"
+        },
+        "youtube": "vq-uCg7Xrnw"
+    },
+    {
+        "description": "Wedding Hall BGM Style 3",
+        "filename": "newWedding2",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Wedding Hall 3",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-11-13",
+            "structure": "BgmPL2",
+            "version": "2.37"
+        },
+        "youtube": "CJLMno8J2Yk"
+    },
+    {
+        "description": "Wedding - Honeymoon Resort",
+        "filename": "newWedding_HoneyMoon",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Honeymoon Resort",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-11-13",
+            "structure": "BgmPL2",
+            "version": "2.37"
+        },
+        "youtube": "tP2Vl5k_R1g"
+    },
+    {
+        "description": "Singapore: Boat Quay field",
+        "filename": "BoatQuay_field",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Boat Quay Field",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "DLdRypTOm0o"
+    },
+    {
+        "description": "Singapore: Boat Quay Town",
+        "filename": "BoatQuay_town",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Boat Quay Town",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "GSDD0c_7FV0"
+    },
+    {
+        "description": "Singapore: CBD field",
+        "filename": "CBD_field",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "CBD Field",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "MvheqAmubR8"
+    },
+    {
+        "description": "Singapore: CBD",
+        "filename": "CBD_town",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "CBD Town",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "czDfxrSGea4"
+    },
+    {
+        "description": "Singapore: Ghost Ship",
+        "filename": "Ghostship",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Ghost Ship",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "cOatjxHHAEw"
+    },
+    {
+        "description": "Santa's Visit: Protect the Land Turtle",
+        "filename": "MeowDefence",
+        "mark": "KualaLumpur",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Meow Defence",
+            "year": "2021"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2021-12-22",
+            "structure": "BgmSG",
+            "version": "2.10"
+        },
+        "youtube": "ggwY4Nk3rhA"
+    },
+    {
+        "description": "Santa's Visit: Santa Surfer's Beach",
+        "filename": "SantaSurfer_Beach",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Santa Surfer - Beach",
+            "year": "2021"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2021-12-22",
+            "structure": "BgmSG",
+            "version": "2.10"
+        },
+        "youtube": "3JjHSIAP1FM"
+    },
+    {
+        "description": "Santa's Visit: Santa Surfer's Sea",
+        "filename": "SantaSurfer_Sea",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Santa Surfer - Sea",
+            "year": "2021"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2021-12-22",
+            "structure": "BgmSG",
+            "version": "2.10"
+        },
+        "youtube": "iQSE7YXgZ6Q"
+    },
+    {
+        "description": "Singapore: Ulu City",
+        "filename": "Ulu_field",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Ulu Field",
+            "year": "2008"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2008-04-07",
+            "structure": "BgmSG",
+            "version": "0.53"
+        },
+        "youtube": "JIriGe2tdeA"
+    },
+    {
+        "description": "On Stage chair effect",
+        "filename": "FlyAway_Vocal",
+        "mark": "3019147",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Fly Away -full- (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "cqpjoXKRGqk"
+    },
+    {
+        "description": "Lacheln in a Dream (MapleStory Dreamer)",
+        "filename": "Lucid in the Dream",
+        "mark": "lucidDream",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Lucid in the Dream",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "iCTo0PeJGlc"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "Lacheln in a Dream (MapleStory Dreamer)",
+        "filename": "Lucid in the Dream_Mum",
+        "mark": "lucidDream",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Lucid in the Dream -reprise-",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "lnd7MS93m1Q"
+    },
+    {
+        "description": "On Stage chair effect",
+        "filename": "ShiningHeart_Vocal",
+        "mark": "3019147",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Shining Heart -full- (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "vA-B-NdwMi4"
+    },
+    {
+        "description": "Angelic Buster's On Stage skill",
+        "filename": "StarBubble_Vocal",
+        "mark": "Pantheon",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Star Bubble -full- (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "uoigdWiUzFo"
+    },
+    {
+        "description": "1000010 Headset: 1000010 ft. Prod. ZM",
+        "filename": "1000010",
+        "mark": "1005518",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "1000010",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "k3zYdRpUKzk"
+    },
+    {
+        "description": "GOGOA Headset: Mushroom Power ft. Sleedpy Brothers",
+        "filename": "Abyss",
+        "mark": "1005643",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Abyss",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "hoPouBVskg8"
+    },
+    {
+        "description": "1000010 Headset: 1000010 ft. Prod. ZM",
+        "filename": "AGAIN",
+        "mark": "1005518",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "AGAIN",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "9t5WXHBBNfY"
+    },
+    {
+        "description": "Vintage101 Headset: Lo-Fi 101 ft. AndLoids",
+        "filename": "Downtown (Headset)",
+        "mark": "1005645",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Downtown",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "9C2POw73efM"
+    },
+    {
+        "description": "Vintage101 Headset: Lo-Fi 101 ft. AndLoids",
+        "filename": "Drive",
+        "mark": "1005645",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Drive",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "2zVMCzBw3ks"
+    },
+    {
+        "description": "Vintage101 Headset: Lo-Fi 101 ft. AndLoids",
+        "filename": "Haven",
+        "mark": "1005645",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Haven",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "ZxwshDpKN-I"
+    },
+    {
+        "description": "GOGOA Headset: Mushroom Power ft. Sleedpy Brothers",
+        "filename": "Into The Dungeon",
+        "mark": "1005643",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Into the Dungeon",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "ff-4__wv1gE"
+    },
+    {
+        "description": "X-Mas Headset: Maple Christmas ft. Athena Pierce & Friends",
+        "filename": "Joy To The Maple World",
+        "mark": "1005642",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Joy to the Maple World",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "mhR9aIeWa94"
+    },
+    {
+        "description": "Nitro Adrenaline Headset: RUN JMC ft. JM From tha Streetz",
+        "filename": "Kill Mob 9999",
+        "mark": "1005520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Kill Mob 9999",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "hgad1fqdaZc"
+    },
+    {
+        "description": "GOGOA Headset: Mushroom Power ft. Sleedpy Brothers",
+        "filename": "Mushroom Power",
+        "mark": "1005643",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Mushroom Power",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "e3XvDcjXoe8"
+    },
+    {
+        "description": "X-Mas Headset: Maple Christmas ft. Athena Pierce & Friends",
+        "filename": "Pink Christmas",
+        "mark": "1005642",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Pink Christmas",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "Xb1jH5hVQMs"
+    },
+    {
+        "description": "Nitro Adrenaline Headset: RUN JMC ft. JM From tha Streetz",
+        "filename": "Raid",
+        "mark": "1005520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Raid",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "wjG9EATMDu8"
+    },
+    {
+        "description": "Starlight Headset: Cheer Up ft. Starlight",
+        "filename": "Shampoo",
+        "mark": "1005519",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Shampoo",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "qSTCL_RGWc0"
+    },
+    {
+        "description": "Nitro Adrenaline Headset: RUN JMC ft. JM From tha Streetz",
+        "filename": "Show Me Tha Meso",
+        "mark": "1005520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Show Me tha Meso",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "a0ZBuqABRdU"
+    },
+    {
+        "description": "1000010 Headset: 1000010 ft. Prod. ZM",
+        "filename": "THE FOOL",
+        "mark": "1005518",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "THE FOOL",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "I_J_G5NoEFo"
+    },
+    {
+        "description": "X-Mas Headset: Maple Christmas ft. Athena Pierce & Friends",
+        "filename": "Together",
+        "mark": "1005642",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Together",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "3dUDJ7gIoO0"
+    },
+    {
+        "description": "Starlight Headset: Cheer Up ft. Starlight",
+        "filename": "Twinkle Twinkle",
+        "mark": "1005519",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Twinkle Twinkle",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "uw2h0-b3NXo"
+    },
+    {
+        "description": "Starlight Headset: Cheer Up ft. Starlight",
+        "filename": "What is Love?",
+        "mark": "1005519",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "What is Love?",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "2cwyawTRvoM"
+    },
+    {
+        "description": "PlayPark-Asiasoft splash",
+        "filename": "AsLogo",
+        "mark": "TestServer",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "Wizet",
+            "title": "Asiasoft Logo",
+            "year": "2022"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2022-01-26",
+            "structure": "BgmUI",
+            "version": "2.11"
+        },
+        "youtube": "DX3BpdprACo"
+    },
+    {
+        "description": "Asiasoft splash",
+        "filename": "AsLogo (Original)",
+        "mark": "TestServer",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "Wizet",
+            "title": "Asiasoft Logo (Original)",
+            "year": "2005"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2009-07-15",
+            "structure": "BgmUI",
+            "version": "0.77"
+        },
+        "youtube": "2WWEkxSNljM"
+    },
+    {
+        "description": "PlayPark-Asiasoft splash",
+        "filename": "AsLogo (PlayPark Original)",
+        "mark": "TestServer",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "Wizet",
+            "title": "Asiasoft Logo (PlayPark Original)",
+            "year": "2018"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2018-11-14",
+            "structure": "BgmUI",
+            "version": "1.80"
+        },
+        "youtube": "oAFLPYk6IvY"
+    },
+    {
+        "description": "Happyville (Alternate Version)",
+        "filename": "WhiteChristmasSea",
+        "mark": "HappyVillage",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "White Christmas (Alternate Version)",
+            "year": "2003"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-12-18",
+            "structure": "Bgm04",
+            "version": "0.49"
+        },
+        "youtube": "zAqyNzqqgT0"
+    },
+    {
+        "description": "Angelic Buster's Superstar Spotlight skill",
+        "filename": "5thSpotLightFlyAway (English)",
+        "mark": "Pantheon",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "Wizet",
+            "title": "5th Spotlight Fly Away (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "Bgm30",
+            "version": "2.32"
+        },
+        "youtube": "hkOtLzywHjY"
+    },
+    {
+        "description": "Angelic Buster's Grand Finale skill",
+        "filename": "6thGrandFinaleStarBubble (English)",
+        "mark": "Pantheon",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "6th Grand Finale Star Bubble (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "Bgm30",
+            "version": "2.32"
+        },
+        "youtube": "8ptGYzhGkz4"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "Angelic Buster's Pretty Exaltation skill",
+        "filename": "shiningHeart (English)",
+        "mark": "Pantheon",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Shining Heart (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "Bgm30",
+            "version": "2.32"
+        },
+        "youtube": "qZed3_Isd6I"
+    },
+    {
+        "description": "Malaysia: Fantasy Theme Park",
+        "filename": "Highland",
+        "mark": "Kampung",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Highland",
+            "year": "2008"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2008-08-28",
+            "structure": "BgmMY",
+            "version": "0.61"
+        },
+        "youtube": "gNafzBfyoTo"
+    },
+    {
+        "description": "Malaysia: Trend Zone Metropolis, Kampung Village",
+        "filename": "KualaLumpur",
+        "mark": "KualaLumpur",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Kuala Lumpur",
+            "year": "2008"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2008-08-28",
+            "structure": "BgmMY",
+            "version": "0.61"
+        },
+        "youtube": "aJNseQp1Tb4"
+    },
+    {
+        "description": "Wedding Hall BGM Style 1",
+        "filename": "newWedding0",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Wedding Hall 1",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-11-13",
+            "structure": "BgmPL2",
+            "version": "2.37"
+        },
+        "youtube": "uTusUDt93XA"
+    },
+    {
+        "description": "Wedding Hall BGM Style 2",
+        "filename": "newWedding1",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Wedding Hall 2",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-11-13",
+            "structure": "BgmPL2",
+            "version": "2.37"
+        },
+        "youtube": "vq-uCg7Xrnw"
+    },
+    {
+        "description": "Wedding Hall BGM Style 3",
+        "filename": "newWedding2",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Wedding Hall 3",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-11-13",
+            "structure": "BgmPL2",
+            "version": "2.37"
+        },
+        "youtube": "CJLMno8J2Yk"
+    },
+    {
+        "description": "Wedding - Honeymoon Resort",
+        "filename": "newWedding_HoneyMoon",
+        "mark": "Wedding",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Honeymoon Resort",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-11-13",
+            "structure": "BgmPL2",
+            "version": "2.37"
+        },
+        "youtube": "tP2Vl5k_R1g"
+    },
+    {
+        "description": "Singapore: Boat Quay field",
+        "filename": "BoatQuay_field",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Boat Quay Field",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "DLdRypTOm0o"
+    },
+    {
+        "description": "Singapore: Boat Quay Town",
+        "filename": "BoatQuay_town",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Boat Quay Town",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "GSDD0c_7FV0"
+    },
+    {
+        "description": "Singapore: CBD field",
+        "filename": "CBD_field",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "CBD Field",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "MvheqAmubR8"
+    },
+    {
+        "description": "Singapore: CBD",
+        "filename": "CBD_town",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "CBD Town",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "czDfxrSGea4"
+    },
+    {
+        "description": "Singapore: Ghost Ship",
+        "filename": "Ghostship",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Ghost Ship",
+            "year": "2007"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2007-08-01",
+            "structure": "BgmSG",
+            "version": "0.44"
+        },
+        "youtube": "cOatjxHHAEw"
+    },
+    {
+        "description": "Santa's Visit: Protect the Land Turtle",
+        "filename": "MeowDefence",
+        "mark": "KualaLumpur",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Meow Defence",
+            "year": "2021"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2021-12-22",
+            "structure": "BgmSG",
+            "version": "2.10"
+        },
+        "youtube": "ggwY4Nk3rhA"
+    },
+    {
+        "description": "Santa's Visit: Santa Surfer's Beach",
+        "filename": "SantaSurfer_Beach",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Santa Surfer - Beach",
+            "year": "2021"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2021-12-22",
+            "structure": "BgmSG",
+            "version": "2.10"
+        },
+        "youtube": "3JjHSIAP1FM"
+    },
+    {
+        "description": "Santa's Visit: Santa Surfer's Sea",
+        "filename": "SantaSurfer_Sea",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Santa Surfer - Sea",
+            "year": "2021"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2021-12-22",
+            "structure": "BgmSG",
+            "version": "2.10"
+        },
+        "youtube": "iQSE7YXgZ6Q"
+    },
+    {
+        "description": "Singapore: Ulu City",
+        "filename": "Ulu_field",
+        "mark": "Singapore",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "StudioEIM",
+            "title": "Ulu Field",
+            "year": "2008"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2008-04-07",
+            "structure": "BgmSG",
+            "version": "0.53"
+        },
+        "youtube": "JIriGe2tdeA"
+    },
+    {
+        "description": "On Stage chair effect",
+        "filename": "FlyAway_Vocal",
+        "mark": "3019147",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Fly Away -full- (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "cqpjoXKRGqk"
+    },
+    {
+        "description": "Lacheln in a Dream (MapleStory Dreamer)",
+        "filename": "Lucid in the Dream",
+        "mark": "lucidDream",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Lucid in the Dream",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "iCTo0PeJGlc"
+    },
+    {
+        "decoration": {
+            "minorTrack": true
+        },
+        "description": "Lacheln in a Dream (MapleStory Dreamer)",
+        "filename": "Lucid in the Dream_Mum",
+        "mark": "lucidDream",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Lucid in the Dream -reprise-",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "lnd7MS93m1Q"
+    },
+    {
+        "description": "On Stage chair effect",
+        "filename": "ShiningHeart_Vocal",
+        "mark": "3019147",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Shining Heart -full- (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "vA-B-NdwMi4"
+    },
+    {
+        "description": "Angelic Buster's On Stage skill",
+        "filename": "StarBubble_Vocal",
+        "mark": "Pantheon",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Star Bubble -full- (English)",
+            "year": "2024"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2024-05-29",
+            "structure": "BgmSG_Event",
+            "version": "2.32"
+        },
+        "youtube": "uoigdWiUzFo"
+    },
+    {
+        "description": "1000010 Headset: 1000010 ft. Prod. ZM",
+        "filename": "1000010",
+        "mark": "1005518",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "1000010",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "k3zYdRpUKzk"
+    },
+    {
+        "description": "GOGOA Headset: Mushroom Power ft. Sleedpy Brothers",
+        "filename": "Abyss",
+        "mark": "1005643",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Abyss",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "hoPouBVskg8"
+    },
+    {
+        "description": "1000010 Headset: 1000010 ft. Prod. ZM",
+        "filename": "AGAIN",
+        "mark": "1005518",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "AGAIN",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "9t5WXHBBNfY"
+    },
+    {
+        "description": "Vintage101 Headset: Lo-Fi 101 ft. AndLoids",
+        "filename": "Downtown (Headset)",
+        "mark": "1005645",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Downtown",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "9C2POw73efM"
+    },
+    {
+        "description": "Vintage101 Headset: Lo-Fi 101 ft. AndLoids",
+        "filename": "Drive",
+        "mark": "1005645",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Drive",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "2zVMCzBw3ks"
+    },
+    {
+        "description": "Vintage101 Headset: Lo-Fi 101 ft. AndLoids",
+        "filename": "Haven",
+        "mark": "1005645",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Haven",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "ZxwshDpKN-I"
+    },
+    {
+        "description": "GOGOA Headset: Mushroom Power ft. Sleedpy Brothers",
+        "filename": "Into The Dungeon",
+        "mark": "1005643",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Into the Dungeon",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "ff-4__wv1gE"
+    },
+    {
+        "description": "X-Mas Headset: Maple Christmas ft. Athena Pierce & Friends",
+        "filename": "Joy To The Maple World",
+        "mark": "1005642",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Joy to the Maple World",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "mhR9aIeWa94"
+    },
+    {
+        "description": "Nitro Adrenaline Headset: RUN JMC ft. JM From tha Streetz",
+        "filename": "Kill Mob 9999",
+        "mark": "1005520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Kill Mob 9999",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "hgad1fqdaZc"
+    },
+    {
+        "description": "GOGOA Headset: Mushroom Power ft. Sleedpy Brothers",
+        "filename": "Mushroom Power",
+        "mark": "1005643",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Mushroom Power",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "e3XvDcjXoe8"
+    },
+    {
+        "description": "X-Mas Headset: Maple Christmas ft. Athena Pierce & Friends",
+        "filename": "Pink Christmas",
+        "mark": "1005642",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Pink Christmas",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "Xb1jH5hVQMs"
+    },
+    {
+        "description": "Nitro Adrenaline Headset: RUN JMC ft. JM From tha Streetz",
+        "filename": "Raid",
+        "mark": "1005520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Raid",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "wjG9EATMDu8"
+    },
+    {
+        "description": "Starlight Headset: Cheer Up ft. Starlight",
+        "filename": "Shampoo",
+        "mark": "1005519",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Shampoo",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "qSTCL_RGWc0"
+    },
+    {
+        "description": "Nitro Adrenaline Headset: RUN JMC ft. JM From tha Streetz",
+        "filename": "Show Me Tha Meso",
+        "mark": "1005520",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Show Me tha Meso",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "a0ZBuqABRdU"
+    },
+    {
+        "description": "1000010 Headset: 1000010 ft. Prod. ZM",
+        "filename": "THE FOOL",
+        "mark": "1005518",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "THE FOOL",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "I_J_G5NoEFo"
+    },
+    {
+        "description": "X-Mas Headset: Maple Christmas ft. Athena Pierce & Friends",
+        "filename": "Together",
+        "mark": "1005642",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Together",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-11-11",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.99"
+        },
+        "youtube": "3dUDJ7gIoO0"
+    },
+    {
+        "description": "Starlight Headset: Cheer Up ft. Starlight",
+        "filename": "Twinkle Twinkle",
+        "mark": "1005519",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "Twinkle Twinkle",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "uw2h0-b3NXo"
+    },
+    {
+        "description": "Starlight Headset: Cheer Up ft. Starlight",
+        "filename": "What is Love?",
+        "mark": "1005519",
+        "metadata": {
+            "albumArtist": "NECORD",
+            "artist": "ASTERIA",
+            "title": "What is Love?",
+            "year": "2020"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2020-05-20",
+            "structure": "BgmSG_HeadPhone",
+            "version": "1.95"
+        },
+        "youtube": "2cwyawTRvoM"
+    },
+    {
+        "description": "PlayPark-Asiasoft splash",
+        "filename": "AsLogo",
+        "mark": "TestServer",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "Wizet",
+            "title": "Asiasoft Logo",
+            "year": "2022"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2022-01-26",
+            "structure": "BgmUI",
+            "version": "2.11"
+        },
+        "youtube": "DX3BpdprACo"
+    },
+    {
+        "description": "Asiasoft splash",
+        "filename": "AsLogo (Original)",
+        "mark": "TestServer",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "Wizet",
+            "title": "Asiasoft Logo (Original)",
+            "year": "2005"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2009-07-15",
+            "structure": "BgmUI",
+            "version": "0.77"
+        },
+        "youtube": "2WWEkxSNljM"
+    },
+    {
+        "description": "PlayPark-Asiasoft splash",
+        "filename": "AsLogo (PlayPark Original)",
+        "mark": "TestServer",
+        "metadata": {
+            "albumArtist": "Wizet",
+            "artist": "Wizet",
+            "title": "Asiasoft Logo (PlayPark Original)",
+            "year": "2018"
+        },
+        "source": {
+            "client": "MSEA",
+            "date": "2018-11-14",
+            "structure": "BgmUI",
+            "version": "1.80"
+        },
+        "youtube": "oAFLPYk6IvY"
+    }
+]

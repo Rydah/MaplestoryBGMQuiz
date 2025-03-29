@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapleStory BGM Randomizer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #4ecca3;
+            font-size: 2.5rem;
+        }
+
+        .bgm-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .bgm-title {
+            font-size: 2rem;
+            color: #4ecca3;
+            margin-bottom: 1rem;
+        }
+
+        .bgm-description {
+            font-size: 1.1rem;
+            color: #ddd;
+            margin-bottom: 1.5rem;
+        }
+
+        .metadata {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .metadata-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 10px;
+        }
+
+        .metadata-label {
+            color: #4ecca3;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .metadata-value {
+            color: #fff;
+            font-size: 1.1rem;
+        }
+
+        button {
+            background: #4ecca3;
+            color: #1a1a2e;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.2s;
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            background: #45b392;
+        }
+
+        .filename {
+            font-family: monospace;
+            color: #ddd;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MapleStory BGM Randomizer</h1>
+        <div class="bgm-card">
+            <div class="bgm-title" id="title">Loading...</div>
+            <div class="bgm-description" id="description"></div>
+            <div class="metadata">
+                <div class="metadata-item">
+                    <div class="metadata-label">Artist</div>
+                    <div class="metadata-value" id="artist"></div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Album Artist</div>
+                    <div class="metadata-value" id="albumArtist"></div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Year</div>
+                    <div class="metadata-value" id="year"></div>
+                </div>
+            </div>
+            <div class="filename" id="filename"></div>
+        </div>
+        <button onclick="getRandomBGM()">Get Another BGM</button>
+    </div>
+
+    <script>
+        let bgmData = [];
+
+        async function loadBGMData() {
+            try {
+                const response = await fetch('merged_bgm.json');
+                bgmData = await response.json();
+                getRandomBGM();
+            } catch (error) {
+                console.error('Error loading BGM data:', error);
+                document.getElementById('title').textContent = 'Error loading data';
+            }
+        }
+
+        function getRandomBGM() {
+            if (bgmData.length === 0) return;
+            
+            const randomBGM = bgmData[Math.floor(Math.random() * bgmData.length)];
+            
+            document.getElementById('title').textContent = randomBGM.metadata.title;
+            document.getElementById('description').textContent = randomBGM.description;
+            document.getElementById('artist').textContent = randomBGM.metadata.artist;
+            document.getElementById('albumArtist').textContent = randomBGM.metadata.albumArtist;
+            document.getElementById('year').textContent = randomBGM.metadata.year;
+            document.getElementById('filename').textContent = randomBGM.filename;
+        }
+
+        // Load data when page loads
+        loadBGMData();
+    </script>
+</body>
+</html> 
