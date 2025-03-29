@@ -1,3 +1,17 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+}
+
+.main-content {
+  max-width: 800px;
+  width: 100%;
+}
+
 .container {
   max-width: 800px;
   width: 100%;
@@ -12,7 +26,7 @@ h1 {
   text-align: center;
   margin-bottom: 2rem;
   color: #4ecca3;
-  font-size: 2.5rem; 
+  font-size: 2.5rem;
 }
 
 button {
