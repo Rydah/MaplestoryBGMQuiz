@@ -27,7 +27,7 @@ function App() {
 
   const loadBGMData = async () => {
     try {
-      const response = await fetch('/merged_bgm.json');
+      const response = await fetch(`${process.env.PUBLIC_URL}/merged_bgm.json`);
       const data = await response.json();
       setBGMData(data);
       setIsLoading(false);
