@@ -11,8 +11,10 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
   const [volume, setVolume] = useState(50);
   const [startTime, setStartTime] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(15);
   const playerRef = useRef(null);
   const timerRef = useRef(null);
+  const countdownRef = useRef(null);
   const fuseRef = useRef(null);
   const playerContainerRef = useRef(null);
 
@@ -83,6 +85,9 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
       if (timerRef.current) {
         clearTimeout(timerRef.current);
       }
+      if (countdownRef.current) {
+        clearInterval(countdownRef.current);
+      }
       if (playerRef.current) {
         try {
           playerRef.current.destroy();
@@ -98,8 +103,8 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
       const player = event.target;
       const duration = player.getDuration();
       
-      // Calculate random start time (at least 30 seconds before the end)
-      const maxStartTime = Math.max(0, duration - 30);
+      // Calculate random start time (at least 15 seconds before the end)
+      const maxStartTime = Math.max(0, duration - 15);
       const newStartTime = Math.floor(Math.random() * maxStartTime);
       setStartTime(newStartTime);
       
@@ -110,8 +115,21 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
       player.seekTo(newStartTime);
       player.playVideo();
       setIsPlaying(true);
+      setTimeLeft(15);
 
-      // Stop after 30 seconds
+      // Start countdown timer
+      countdownRef.current = setInterval(() => {
+        setTimeLeft(prev => {
+          if (prev <= 1) {
+            clearInterval(countdownRef.current);
+            handleTimeUp();
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+
+      // Stop after 15 seconds
       timerRef.current = setTimeout(() => {
         try {
           player.pauseVideo();
@@ -120,27 +138,18 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
         } catch (error) {
           console.error('Error stopping video:', error);
         }
-      }, 30000);
+      }, 15000);
     } catch (error) {
       console.error('Error in onPlayerReady:', error);
       setPlayerError(true);
     }
   };
 
-  const handlePlayClick = () => {
-    if (playerRef.current && !playerError) {
-      try {
-        if (isPlaying) {
-          playerRef.current.pauseVideo();
-        } else {
-          playerRef.current.seekTo(startTime);
-          playerRef.current.playVideo();
-        }
-        setIsPlaying(!isPlaying);
-      } catch (error) {
-        console.error('Error toggling video:', error);
-        setPlayerError(true);
-      }
+  const handleTimeUp = () => {
+    if (!showAnswer) {
+      setShowAnswer(true);
+      setIsCorrect(false);
+      onGuess(false);
     }
   };
 
@@ -196,6 +205,7 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
     setGuess('');
     setSuggestions([]);
     onGuess(isCorrect);
+    clearInterval(countdownRef.current);
   };
 
   const handleNext = () => {
@@ -204,6 +214,7 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
     setIsCorrect(false);
     setSuggestions([]);
     setPlayerError(false);
+    setTimeLeft(15);
     onNext();
   };
 
@@ -226,13 +237,9 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
           ></div>
         </div>
         <div className="audio-controls">
-          <button 
-            onClick={handlePlayClick}
-            className={`play-button ${isPlaying ? 'playing' : ''}`}
-            disabled={playerError}
-          >
-            {playerError ? 'Error loading audio' : isPlaying ? 'Pause' : 'Play'}
-          </button>
+          <div className="time-left">
+            Time Left: {timeLeft}s
+          </div>
           <div className="volume-control">
             <input
               type="range"
@@ -246,52 +253,45 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
         </div>
       </div>
       
-      <div className="guess-section">
-        <form onSubmit={handleGuessSubmit} className={`guess-form ${showAnswer ? 'hidden' : ''}`}>
-          <div className="guess-input-container">
-            <input
-              type="text"
-              value={guess}
-              onChange={handleGuessChange}
-              placeholder="Guess the song title..."
-              disabled={showAnswer}
-              className="guess-input"
-            />
-            {suggestions.length > 0 && (
-              <div className="suggestions">
-                {suggestions.map((suggestion, index) => (
-                  <div
-                    key={index}
-                    className="suggestion-item"
-                    onClick={() => handleSuggestionClick(suggestion)}
-                  >
-                    <div className="suggestion-title">{suggestion.title}</div>
-                    <div className="suggestion-description">{suggestion.description}</div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-          <button type="submit" disabled={showAnswer} className="guess-button">
-            Submit Guess
+      <form onSubmit={handleGuessSubmit} className={`guess-form ${showAnswer ? 'hidden' : ''}`}>
+        <div className="guess-input-container">
+          <input
+            type="text"
+            value={guess}
+            onChange={handleGuessChange}
+            placeholder="Guess the song title..."
+            disabled={showAnswer}
+            className="guess-input"
+          />
+          {suggestions.length > 0 && (
+            <div className="suggestions">
+              {suggestions.map((suggestion, index) => (
+                <div
+                  key={index}
+                  className="suggestion-item"
+                  onClick={() => handleSuggestionClick(suggestion)}
+                >
+                  <div className="suggestion-title">{suggestion.title}</div>
+                  <div className="suggestion-description">{suggestion.description}</div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+        <button type="submit" disabled={showAnswer} className="guess-button">
+          Submit Guess
+        </button>
+      </form>
+
+      {showAnswer && (
+        <div className={`answer ${isCorrect ? 'correct' : 'incorrect'}`}>
+          <p>{isCorrect ? 'Correct!' : 'Incorrect!'}</p>
+          <p>The correct answer was: {bgm.metadata.title}</p>
+          <button onClick={handleNext} className="next-button">
+            Next Song
           </button>
-        </form>
-
-        {showAnswer && (
-          <div className={`answer ${isCorrect ? 'correct' : 'incorrect'}`}>
-            <p>{isCorrect ? 'Correct!' : 'Incorrect!'}</p>
-            <p>The correct answer was: {bgm.metadata.title}</p>
-            <button onClick={handleNext} className="next-button">
-              Next Song
-            </button>
-          </div>
-        )}
-      </div>
-
-      {/* <div className="song-info">
-        <div className="song-title">{bgm.metadata.title}</div>
-        <div className="song-mark">{bgm.description}</div>
-      </div> */}
+        </div>
+      )}
     </div>
   );
 }
