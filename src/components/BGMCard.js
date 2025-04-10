@@ -19,6 +19,8 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
   const timerRef = useRef(null);
   const fuseRef = useRef(null);
   const playerContainerRef = useRef(null);
+  const countdownRef = useRef(countdown || 30);
+  const intervalRunning = useRef(false); // Flag to check if interval is already running
 
   useEffect(() => {
     // Initialize Fuse for fuzzy search
@@ -97,11 +99,36 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
     };
   }, [bgm?.youtube]);
 
+  // Handle countdown for single-player mode
   useEffect(() => {
-    if (isMultiplayer && countdown !== undefined) {
-      setTimeLeft(countdown);
+    // Only run timer if in single-player mode and should start
+    if (!isMultiplayer && !showAnswer) {
+      // Clear any existing timer
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+      }
+  
+      // Start a new timer
+      timerRef.current = setInterval(() => {
+        countdownRef.current -= 1;
+        setTimeLeft(countdownRef.current);
+  
+        if (countdownRef.current <= 0) {
+          clearInterval(timerRef.current);
+          timerRef.current = null;
+          handleTimeUp();
+        }
+      }, 1000);
     }
-  }, [countdown, isMultiplayer]);
+  
+    // Cleanup timer when effect deps change or component unmounts
+    return () => {
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+        timerRef.current = null;
+      }
+    };
+  }, [isMultiplayer, showAnswer, countdown]);
 
   const onPlayerReady = (event) => {
     try {
@@ -120,20 +147,6 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
       player.seekTo(newStartTime);
       player.playVideo();
       setIsPlaying(true);
-
-      if (!isMultiplayer) {
-        // Start countdown timer for single player
-        timerRef.current = setTimeout(() => {
-          try {
-            player.pauseVideo();
-            player.seekTo(0);
-            setIsPlaying(false);
-            handleTimeUp();
-          } catch (error) {
-            console.error('Error stopping video:', error);
-          }
-        }, 30000);
-      }
     } catch (error) {
       console.error('Error in onPlayerReady:', error);
       setPlayerError(true);
@@ -210,13 +223,21 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
   };
 
   const handleNext = () => {
+    // Clear previous interval
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+  
+    // Reset everything
+    countdownRef.current = 30;
+    setTimeLeft(30);
     setGuess('');
     setShowAnswer(false);
     setIsCorrect(false);
     setSuggestions([]);
     setPlayerError(false);
-    setTimeLeft(30);
-    onNext();
+    onNext(); // Trigger whatever logic you have for moving to the next song/round
   };
 
   return (

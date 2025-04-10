@@ -122,7 +122,7 @@ io.on('connection', (socket) => {
     player.hasGuessed = true;
     const isCorrect = guess.toLowerCase() === lobby.currentSong.metadata.title.toLowerCase();
     if (isCorrect) {
-      player.score += Math.ceil(lobby.countdown / 3); // More points for faster guesses
+      player.score += 1;
     }
 
     io.to(lobbyCode).emit('playerGuessed', {
