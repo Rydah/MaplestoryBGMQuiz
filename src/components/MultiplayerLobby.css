@@ -58,7 +58,9 @@
 }
 
 .multiplayer-lobby {
-  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem;
   background: rgba(255, 255, 255, 0.05);
@@ -66,7 +68,8 @@
 }
 
 .lobby-info {
-  margin-bottom: 2rem;
+  flex: 1;
+  margin-right: 2rem;
 }
 
 .lobby-info h2 {
@@ -78,6 +81,7 @@
   background: rgba(255, 255, 255, 0.05);
   padding: 1rem;
   border-radius: 5px;
+  margin-bottom: 2rem;
 }
 
 .players-list h3 {
@@ -123,7 +127,143 @@
 }
 
 .game-area {
-  margin-top: 2rem;
+  flex: 2;
+  margin-top: 0;
+}
+
+.bgm-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.audio-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  margin-bottom: 20px;
+}
+
+.youtube-player-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.audio-controls {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.volume-control {
+  width: 100%;
+  max-width: 150px;
+}
+
+.guess-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.guess-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.guess-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+}
+
+.guess-button {
+  padding: 10px 20px;
+  background: #4ecca3;
+  color: #1a1a2e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.guess-button:hover {
+  background: #45b392;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.volume-slider {
+  width: 100%;
+}
+
+.answer {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.answer.incorrect {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #ff4444;
+}
+
+.answer p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.next-button {
+  background: #4ecca3;
+  color: #1a1a2e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+  transition: background 0.2s;
+}
+
+.next-button:hover {
+  background: #45b392;
 }
 
 .countdown {
@@ -131,4 +271,31 @@
   font-size: 1.5rem;
   color: #4ecca3;
   margin-bottom: 1rem;
+}
+
+.results-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.correct-answer {
+  font-size: 1.5em;
+  color: #4CAF50;
+  margin: 20px 0;
+}
+
+.player-results {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.player-result {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
 } 

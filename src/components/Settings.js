@@ -33,26 +33,6 @@ function Settings({ settings, onChange }) {
       
       <div className="settings-panel">
         <div className="settings-section">
-          <h3>Client</h3>
-          <select 
-            value={settings.selectedClient} 
-            onChange={handleClientChange}
-            className="settings-select"
-          >
-            <option value="">All Clients</option>
-            <option value="GMS">GMS</option>
-            <option value="KMS">KMS</option>
-            <option value="JMS">JMS</option>
-            <option value="CMS">CMS</option>
-            <option value="TMS">TMS</option>
-            <option value="SEA">SEA</option>
-            <option value="EMS">EMS</option>
-            <option value="BMS">BMS</option>
-            <option value="MSEA">MSEA</option>
-          </select>
-        </div>
-
-        <div className="settings-section">
           <h3>Year Range</h3>
           <div className="year-range-container">
             <div className="year-slider-container">

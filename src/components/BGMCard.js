@@ -5,10 +5,10 @@ import { io } from 'socket.io-client';
 
 const socket = io('http://localhost:3001');
 
-function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
+function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown, showAnswer: showAnswerProp, isCorrect: isCorrectProp }) {
   const [guess, setGuess] = useState('');
   const [showAnswer, setShowAnswer] = useState(false);
-  const [isCorrect, setIsCorrect] = useState(false);
+  const [isCorrect, setIsCorrect] = useState(isCorrectProp || false);
   const [suggestions, setSuggestions] = useState([]);
   const [playerError, setPlayerError] = useState(false);
   const [volume, setVolume] = useState(50);
@@ -99,6 +99,12 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
     };
   }, [bgm?.youtube]);
 
+  useEffect(() => {
+    if (playerRef.current && playerRef.current.setVolume) {
+      playerRef.current.setVolume(volume);
+    }
+  }, [volume]);
+
   // Handle countdown for single-player mode
   useEffect(() => {
     // Only run timer if in single-player mode and should start
@@ -130,6 +136,35 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
     };
   }, [isMultiplayer, showAnswer, countdown]);
 
+  // Add effect to handle showAnswer prop changes
+  useEffect(() => {
+    if (showAnswerProp !== undefined) {
+      setShowAnswer(showAnswerProp);
+      if (showAnswerProp && playerRef.current && playerRef.current.seekTo) {
+        try {
+          playerRef.current.seekTo(startTime);
+          playerRef.current.playVideo();
+          playerRef.current.setVolume(volume);
+          setIsPlaying(true);
+        } catch (error) {
+          console.error('Error playing video:', error);
+        }
+      }
+    }
+  }, [showAnswerProp, startTime, volume]);
+
+  // Add effect to handle isCorrect prop changes
+  useEffect(() => {
+    if (isCorrectProp !== undefined && isCorrectProp !== null) {
+      setIsCorrect(isCorrectProp);
+    }
+  }, [isCorrectProp]);
+
+  // Add effect to log isCorrect state changes
+  useEffect(() => {
+    console.log('isCorrect state changed:', isCorrect, 'Stack trace:', new Error().stack);
+  }, [isCorrect]);
+
   const onPlayerReady = (event) => {
     try {
       const player = event.target;
@@ -156,8 +191,11 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
   const handleTimeUp = () => {
     if (!showAnswer) {
       setShowAnswer(true);
-      setIsCorrect(false);
-      onGuess(false);
+      // Don't set isCorrect here in multiplayer mode, let the prop handle it
+      if (!isMultiplayer) {
+        setIsCorrect(false);
+      }
+      onGuess('');
       if (isMultiplayer) {
         socket.emit('submitGuess', { guess: '' });
       }
@@ -210,15 +248,23 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
     e.preventDefault();
     if (!guess.trim()) return;
 
-    const isCorrect = guess.toLowerCase() === bgm.metadata.title.toLowerCase();
+    const localIsCorrect = guess.toLowerCase() === bgm.metadata.title.toLowerCase();
     setShowAnswer(true);
-    setIsCorrect(isCorrect);
+    // Don't set isCorrect here in multiplayer mode, let the prop handle it
+    if (!isMultiplayer) {
+      setIsCorrect(localIsCorrect);
+    }
     setGuess('');
     setSuggestions([]);
-    onGuess(isCorrect);
+    onGuess(guess.toLowerCase());
+
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
 
     if (isMultiplayer) {
-      socket.emit('submitGuess', { guess });
+      socket.emit('submitGuess', { guess: guess.toLowerCase() });
     }
   };
 
@@ -234,7 +280,10 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
     setTimeLeft(30);
     setGuess('');
     setShowAnswer(false);
-    setIsCorrect(false);
+    // Don't reset isCorrect in multiplayer mode, let the prop handle it
+    if (!isMultiplayer) {
+      setIsCorrect(false);
+    }
     setSuggestions([]);
     setPlayerError(false);
     onNext(); // Trigger whatever logic you have for moving to the next song/round
@@ -257,23 +306,6 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
               height: '100%'
             }}
           ></div>
-        </div>
-        <div className="audio-controls">
-          {!isMultiplayer && (
-            <div className="time-left">
-              Time Left: {timeLeft}s
-            </div>
-          )}
-          <div className="volume-control">
-            <input
-              type="range"
-              min="0"
-              max="100"
-              value={volume}
-              onChange={handleVolumeChange}
-              className="volume-slider"
-            />
-          </div>
         </div>
       </div>
       
@@ -311,13 +343,23 @@ function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
         <div className={`answer ${isCorrect ? 'correct' : 'incorrect'}`}>
           <p>{isCorrect ? 'Correct!' : 'Incorrect!'}</p>
           <p>The correct answer was: {bgm.metadata.title}</p>
-          {!isMultiplayer && (
-            <button onClick={handleNext} className="next-button">
-              Next Song
-            </button>
-          )}
+          <button onClick={handleNext} className="next-button">
+            Next Song
+          </button>
         </div>
       )}
+
+      <div className="volume-control">
+        <h3>Volume</h3>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value={volume}
+          onChange={(e) => setVolume(parseInt(e.target.value))}
+          className="volume-slider"
+        />
+      </div>
     </div>
   );
 }

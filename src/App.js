@@ -79,14 +79,7 @@ function App() {
       
       const year = parseInt(bgm.metadata.year);
       const yearMatch = year >= settings.dateRange.from && year <= settings.dateRange.to;
-      
-      console.log('Filtering item:', {
-        title: bgm.metadata.title,
-        year,
-        yearRange: `${settings.dateRange.from}-${settings.dateRange.to}`,
-        matches: { yearMatch }
-      });
-      
+    
       return yearMatch;
     });
     

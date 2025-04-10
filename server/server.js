@@ -2,6 +2,8 @@ const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
 const cors = require('cors');
+const fs = require('fs');
+const path = require('path');
 
 const app = express();
 app.use(cors());
@@ -14,6 +16,10 @@ const io = socketIo(server, {
   }
 });
 
+// Load songs from merged_bgm.json
+const songsPath = path.join(__dirname, '../public/merged_bgm.json');
+const songs = JSON.parse(fs.readFileSync(songsPath, 'utf8'));
+
 // Game state
 const lobbies = new Map();
 const players = new Map();
@@ -21,6 +27,21 @@ const players = new Map();
 // Helper function to generate a random lobby code
 function generateLobbyCode() {
   return Math.random().toString(36).substring(2, 6).toUpperCase();
+}
+
+// Helper function to get a random song
+function getRandomSong() {
+  const randomIndex = Math.floor(Math.random() * songs.length);
+  return songs[randomIndex];
+}
+
+// Helper function to filter songs by year range
+function filterSongsByYear(fromYear, toYear) {
+    console.log("Filtering songs by year", fromYear, toYear);
+  return songs.filter(song => {
+    const year = parseInt(song.metadata.year);
+    return fromYear <= year && year <= toYear;
+  });
 }
 
 // Socket.IO connection handling
@@ -37,7 +58,8 @@ io.on('connection', (socket) => {
       currentSong: null,
       gameState: 'waiting', // waiting, playing, showingResults
       countdown: 30,
-      timer: null
+      timer: null,
+      allSongs: filterSongsByYear(2003, 2010)
     };
     
     lobbies.set(lobbyCode, lobby);
@@ -51,7 +73,7 @@ io.on('connection', (socket) => {
     });
   });
 
-  // Join an existing lobby 
+  // Join an existing lobby
   socket.on('joinLobby', ({ lobbyCode, playerName }) => {
     const lobby = lobbies.get(lobbyCode);
     if (!lobby) {
@@ -75,17 +97,27 @@ io.on('connection', (socket) => {
   });
 
   // Start the game (host only)
-  socket.on('startGame', () => {
+  socket.on('startGame', ({ fromYear, toYear }) => {
+    console.log("Received startGame event");
     const lobbyCode = players.get(socket.id);
     const lobby = lobbies.get(lobbyCode);
 
     if (!lobby || lobby.host !== socket.id) {
+      console.log("Error: Only the host can start the game");
       socket.emit('error', 'Only the host can start the game');
       return;
     }
 
+    const filteredSongs = filterSongsByYear(fromYear, toYear);
+    if (filteredSongs.length === 0) {
+      console.log("Error: No songs available for the selected year range");
+      socket.emit('error', 'No songs available for the selected year range');
+      return;
+    }
+
+    console.log("Starting game with filtered songs");
     lobby.gameState = 'playing';
-    lobby.currentSong = null; // You'll need to implement song selection logic here
+    lobby.currentSong = filteredSongs[Math.floor(Math.random() * filteredSongs.length)];
     lobby.countdown = 30;
 
     // Reset player states
@@ -95,7 +127,8 @@ io.on('connection', (socket) => {
 
     io.to(lobbyCode).emit('gameStarted', {
       song: lobby.currentSong,
-      countdown: lobby.countdown
+      countdown: lobby.countdown,
+      allSongs: filteredSongs
     });
 
     // Start countdown
@@ -120,19 +153,29 @@ io.on('connection', (socket) => {
     if (!player || player.hasGuessed) return;
 
     player.hasGuessed = true;
+    console.log("Received guess:", guess);
     const isCorrect = guess.toLowerCase() === lobby.currentSong.metadata.title.toLowerCase();
+    player.guessedCorrectly = isCorrect;
+
     if (isCorrect) {
-      player.score += 1;
+      player.score += 1; // Always give one point for correct guesses
     }
 
     io.to(lobbyCode).emit('playerGuessed', {
-      playerId: socket.id,
       playerName: player.name,
-      hasGuessed: true
+      hasGuessed: true,
+      isCorrect: isCorrect,
+      score: player.score
+    });
+    console.log('Emitted playerGuessed event:', {
+      playerName: player.name,
+      isCorrect: isCorrect,
+      score: player.score
     });
 
     // Check if all players have guessed
     if (Array.from(lobby.players.values()).every(p => p.hasGuessed)) {
+      clearInterval(lobby.timer);
       endRound(lobbyCode);
     }
   });
@@ -142,16 +185,45 @@ io.on('connection', (socket) => {
     const lobbyCode = players.get(socket.id);
     const lobby = lobbies.get(lobbyCode);
 
-    if (!lobby || lobby.host !== socket.id || lobby.gameState !== 'showingResults') {
+    if (!lobby || lobby.host !== socket.id) {
       socket.emit('error', 'Invalid action');
       return;
     }
 
-    lobby.gameState = 'waiting';
-    io.to(lobbyCode).emit('lobbyUpdate', {
-      players: Array.from(lobby.players.values()),
-      gameState: lobby.gameState
+    // Clear any existing timer
+    if (lobby.timer) {
+      clearInterval(lobby.timer);
+      lobby.timer = null;
+    }
+
+    // Reset player states
+    for (const player of lobby.players.values()) {
+      player.hasGuessed = false;
+    }
+
+    // Select a new random song
+    const randomIndex = Math.floor(Math.random() * lobby.allSongs.length);
+    lobby.currentSong = lobby.allSongs[randomIndex];
+    lobby.countdown = 30;
+    lobby.gameState = 'playing';
+
+    // Emit the new song and reset states
+    io.to(lobbyCode).emit('gameStarted', {
+      song: lobby.currentSong,
+      countdown: lobby.countdown,
+      allSongs: lobby.allSongs
     });
+
+    // Start new countdown
+    lobby.timer = setInterval(() => {
+      lobby.countdown--;
+      io.to(lobbyCode).emit('countdownUpdate', lobby.countdown);
+
+      if (lobby.countdown <= 0) {
+        clearInterval(lobby.timer);
+        endRound(lobbyCode);
+      }
+    }, 1000);
   });
 
   // Handle disconnection
@@ -188,6 +260,14 @@ function endRound(lobbyCode) {
 
   clearInterval(lobby.timer);
   lobby.gameState = 'showingResults';
+
+  // Mark all players who haven't guessed as incorrect
+  for (const player of lobby.players.values()) {
+    if (!player.hasGuessed) {
+      player.hasGuessed = true;
+      player.guess = ''; // Empty guess indicates they didn't guess
+    }
+  }
 
   io.to(lobbyCode).emit('roundEnded', {
     correctAnswer: lobby.currentSong.metadata.title,
