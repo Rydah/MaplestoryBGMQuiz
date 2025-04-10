@@ -406,4 +406,69 @@
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
   margin: 1rem 0;
+}
+
+.countdown-timer {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #4ecca3;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.answer-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.answer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.answer.correct {
+  color: #4ecca3;
+}
+
+.answer.incorrect {
+  color: #ff6b6b;
+}
+
+.song-info {
+  margin-bottom: 20px;
+}
+
+.song-title {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.song-artist {
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+.submit-button {
+  background: #4ecca3;
+  color: #1a1a2e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.submit-button:not(:disabled):hover {
+  background: #45b392;
+  transform: translateY(-1px);
 } 

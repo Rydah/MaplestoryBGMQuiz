@@ -1,0 +1,131 @@
+.lobby-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lobby-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.lobby-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 16px;
+}
+
+.lobby-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.lobby-form button {
+  background: #4ecca3;
+  color: #1a1a2e;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.lobby-form button:hover {
+  background: #45b392;
+  transform: translateY(-1px);
+}
+
+.players-list {
+  margin: 20px 0;
+}
+
+.player-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.host-badge {
+  background: #4ecca3;
+  color: #1a1a2e;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.start-game-button {
+  background: #4ecca3;
+  color: #1a1a2e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.start-game-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.start-game-button:not(:disabled):hover {
+  background: #45b392;
+  transform: translateY(-1px);
+}
+
+.error-message {
+  color: #ff6b6b;
+  margin-top: 10px;
+  padding: 10px;
+  background: rgba(255, 107, 107, 0.1);
+  border-radius: 5px;
+}
+
+.leave-lobby-button {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.leave-lobby-button:hover {
+  background: #ff5252;
+  transform: translateY(-1px);
+}
+
+.retry-button {
+  background: #4ecca3;
+  color: #1a1a2e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.retry-button:hover {
+  background: #45b392;
+  transform: translateY(-1px);
+} 
