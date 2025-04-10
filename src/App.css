@@ -93,4 +93,35 @@ button:hover {
   font-size: 1.5em;
   font-weight: bold;
   color: #ffffff;
+}
+
+.game-mode-selector {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.mode-button {
+  padding: 0.8rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.mode-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.mode-button.active {
+  background: #4ecca3;
+  color: #1a1a2e;
+}
+
+.mode-button.active:hover {
+  background: #45b392;
 } 

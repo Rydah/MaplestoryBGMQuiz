@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './BGMCard.css';
 import Fuse from 'fuse.js';
+import { io } from 'socket.io-client';
 
-function BGMCard({ bgm, onNext, allSongs, onGuess }) {
+const socket = io('http://localhost:3001');
+
+function BGMCard({ bgm, onNext, allSongs, onGuess, isMultiplayer, countdown }) {
   const [guess, setGuess] = useState('');
   const [showAnswer, setShowAnswer] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -11,10 +14,9 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
   const [volume, setVolume] = useState(50);
   const [startTime, setStartTime] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(15);
+  const [timeLeft, setTimeLeft] = useState(countdown || 30);
   const playerRef = useRef(null);
   const timerRef = useRef(null);
-  const countdownRef = useRef(null);
   const fuseRef = useRef(null);
   const playerContainerRef = useRef(null);
 
@@ -85,9 +87,6 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
       if (timerRef.current) {
         clearTimeout(timerRef.current);
       }
-      if (countdownRef.current) {
-        clearInterval(countdownRef.current);
-      }
       if (playerRef.current) {
         try {
           playerRef.current.destroy();
@@ -98,13 +97,19 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
     };
   }, [bgm?.youtube]);
 
+  useEffect(() => {
+    if (isMultiplayer && countdown !== undefined) {
+      setTimeLeft(countdown);
+    }
+  }, [countdown, isMultiplayer]);
+
   const onPlayerReady = (event) => {
     try {
       const player = event.target;
       const duration = player.getDuration();
       
-      // Calculate random start time (at least 15 seconds before the end)
-      const maxStartTime = Math.max(0, duration - 15);
+      // Calculate random start time (at least 30 seconds before the end)
+      const maxStartTime = Math.max(0, duration - 30);
       const newStartTime = Math.floor(Math.random() * maxStartTime);
       setStartTime(newStartTime);
       
@@ -115,30 +120,20 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
       player.seekTo(newStartTime);
       player.playVideo();
       setIsPlaying(true);
-      setTimeLeft(15);
 
-      // Start countdown timer
-      countdownRef.current = setInterval(() => {
-        setTimeLeft(prev => {
-          if (prev <= 1) {
-            clearInterval(countdownRef.current);
+      if (!isMultiplayer) {
+        // Start countdown timer for single player
+        timerRef.current = setTimeout(() => {
+          try {
+            player.pauseVideo();
+            player.seekTo(0);
+            setIsPlaying(false);
             handleTimeUp();
-            return 0;
+          } catch (error) {
+            console.error('Error stopping video:', error);
           }
-          return prev - 1;
-        });
-      }, 1000);
-
-      // Stop after 15 seconds
-      timerRef.current = setTimeout(() => {
-        try {
-          player.pauseVideo();
-          player.seekTo(0);
-          setIsPlaying(false);
-        } catch (error) {
-          console.error('Error stopping video:', error);
-        }
-      }, 15000);
+        }, 30000);
+      }
     } catch (error) {
       console.error('Error in onPlayerReady:', error);
       setPlayerError(true);
@@ -150,6 +145,9 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
       setShowAnswer(true);
       setIsCorrect(false);
       onGuess(false);
+      if (isMultiplayer) {
+        socket.emit('submitGuess', { guess: '' });
+      }
     }
   };
 
@@ -205,7 +203,10 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
     setGuess('');
     setSuggestions([]);
     onGuess(isCorrect);
-    clearInterval(countdownRef.current);
+
+    if (isMultiplayer) {
+      socket.emit('submitGuess', { guess });
+    }
   };
 
   const handleNext = () => {
@@ -214,7 +215,7 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
     setIsCorrect(false);
     setSuggestions([]);
     setPlayerError(false);
-    setTimeLeft(15);
+    setTimeLeft(30);
     onNext();
   };
 
@@ -237,9 +238,11 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
           ></div>
         </div>
         <div className="audio-controls">
-          <div className="time-left">
-            Time Left: {timeLeft}s
-          </div>
+          {!isMultiplayer && (
+            <div className="time-left">
+              Time Left: {timeLeft}s
+            </div>
+          )}
           <div className="volume-control">
             <input
               type="range"
@@ -287,9 +290,11 @@ function BGMCard({ bgm, onNext, allSongs, onGuess }) {
         <div className={`answer ${isCorrect ? 'correct' : 'incorrect'}`}>
           <p>{isCorrect ? 'Correct!' : 'Incorrect!'}</p>
           <p>The correct answer was: {bgm.metadata.title}</p>
-          <button onClick={handleNext} className="next-button">
-            Next Song
-          </button>
+          {!isMultiplayer && (
+            <button onClick={handleNext} className="next-button">
+              Next Song
+            </button>
+          )}
         </div>
       )}
     </div>
